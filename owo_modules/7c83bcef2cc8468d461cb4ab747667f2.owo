@@ -1,7 +1,9 @@
 <template>
   <div class="swiper-zBLJxURsOhhagFAH">
     <ul> 
-      <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
+      <li>
+        <a href="">
+          <img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em>121212</em></li>
       <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
       <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
       <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
@@ -83,6 +85,15 @@ a {
 li {
   list-style: none;
   list-style-type: none;
+}
+em {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-style: inherit;
+  width: 98%;
+  padding: 0 1%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /*p7*/
 </style>

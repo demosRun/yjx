@@ -1260,7 +1260,7 @@ caption, th, td {
   100% {
     left: -120px;
     right: unset;
-    top: -120px;
+    top: -150px;
     position: absolute;
     -webkit-transform: scale3d(0.474, 0.474, 0.474);
     transform: scale3d(0.474, 0.474, 0.474);
@@ -1284,7 +1284,7 @@ caption, th, td {
   100% {
     left: -120px;
     right: unset;
-    top: -120px;
+    top: -150px;
     position: absolute;
     -webkit-transform: scale3d(0.474, 0.474, 0.474);
     transform: scale3d(0.474, 0.474, 0.474);
