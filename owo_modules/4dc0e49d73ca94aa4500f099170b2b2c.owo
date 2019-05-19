@@ -1,0 +1,33 @@
+<template>
+  <div class="p1_con_a clearfix w1000">
+   <h1>
+     <a href="/n1/2017/1130/c406725-29676025.html" target="_blank">能人领着跑 山珍卖得俏</a>
+  </h1>
+  <p>
+    <a href="http://www.people.com.cn/">中国扶贫攻坚工作实施精准扶贫方略</a>
+    <a href="http://www.people.com.cn/">增加扶贫投入</a>
+    <a href="http://www.people.com.cn/">出台优惠政策措施</a>
+    <a href="http://www.people.com.cn/">坚持中国制度优势</a>
+    <a href="http://www.people.com.cn/">注重六个精准</a>
+    <a href="http://www.people.com.cn/">坚持分类施策</a>
+    <a href="http://www.people.com.cn/">因人因地施策</a>
+  </p>
+</div>
+</template>
+
+
+<style lang="less">
+h1,h2,h3,h4,h5,h6{ text-align:left;font:normal 12px/200% "微软雅黑";}
+.p1_con_a{ padding:20px 0;}
+a:link,a:visited{color:#000000; text-decoration:none;}
+.p1_con_a h1{ text-align:center; font-size:36px;}
+.p1_con_a p{
+  font-size: 14px;
+  text-align: center;
+  padding: 0 30px;
+  a {
+    padding-right: 10px;
+  }
+}
+a:hover{color:#000000; text-decoration:underline;}
+</style>

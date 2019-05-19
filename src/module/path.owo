@@ -1,0 +1,1317 @@
+<template>
+<div class="mainwrap ww nsl">
+  <div class="main w">
+    <div class="logo">
+      <img src="http://xj.people.com.cn/img/LOCAL/2016/11/112998/img/logo.png"  alt="" />
+    </div>
+    <div class="map">
+      <img src="http://xj.people.com.cn/img/LOCAL/2016/11/112998/img/main.png" alt="" />
+    </div>
+    <div class="info">
+      <div id="modelBox" class="hide bubble tips talk-bubble tri-right round btm-left-in">
+        <div class="talktext">
+          <a href="#"><h3>标题</h3><p>内容</p></a>
+        </div>
+      </div>
+      <!-- 北京 -->
+      <span class="dot bj dbj1"></span>
+      <span class="dot bj dbj2"></span>
+      <span class="dot bj dbj3"></span>
+      <span class="dot bj dbj4"></span>
+      <span class="cou bj cbj1">墨玉县</span>
+      <span class="cou bj cbj2">和田市</span>
+      <span class="cou bj cbj3">和田县</span>
+      <span class="cou bj cbj4">洛浦县</span>
+      <span class="pro bj pbj">北京市</span>
+      <!-- 天津 -->
+      <span class="dot tj dtj1"></span>
+      <span class="dot tj dtj2"></span>
+      <span class="dot tj dtj3"></span>
+      <span class="cou tj ctj1">策勒</span>
+      <span class="cou tj ctj2">于田</span>
+      <span class="cou tj ctj3">民丰三县</span>
+      <span class="pro tj ptj">天津市</span>
+      <!-- 河北 -->
+      <span class="dot hb dhb1"></span>
+      <span class="cou hb chb1">巴音郭楞州<br/>内蒙古自治州</span>
+      <span class="pro hb phb">河北省</span>
+      <!-- 山西 -->
+      <span class="dot sx dsx1"></span>
+      <span class="dot sx dsx2"></span>
+      <span class="cou sx csx1">五家渠市</span>
+      <span class="cou sx csx2">阜康市</span>
+      <span class="pro sx psx">山西省</span>
+      <!-- 河北 -->
+      <span class="dot ln dln1"></span>
+      <span class="cou ln cln1">塔城地区</span>
+      <span class="pro ln pln">辽宁省</span>
+      <!-- 吉林 -->
+      <span class="dot jl djl1"></span>
+      <span class="dot jl djl2"></span>
+      <span class="dot jl djl3"></span>
+      <span class="dot jl djl4"></span>
+      <span class="cou jl cjl1">吉木乃县</span>
+      <span class="cou jl cjl2">哈巴河县</span>
+      <span class="cou jl cjl3">布尔津县</span>
+      <span class="cou jl cjl4">阿勒泰市</span>
+      <span class="pro jl pjl">吉林省</span>	
+      <!-- 黑龙江 -->
+      <span class="dot hl dhl1"></span>
+      <span class="dot hl dhl2"></span>
+      <span class="dot hl dhl3"></span>
+      <span class="cou hl chl1">福海县</span>
+      <span class="cou hl chl2">富蕴县</span>
+      <span class="cou hl chl3">青河县</span>
+      <span class="pro hl phl">黑龙江省</span>
+      <!-- 上海 -->
+      <span class="dot sh dsh1"></span>
+      <span class="dot sh dsh2"></span>
+      <span class="dot sh dsh3"></span>
+      <span class="dot sh dsh4"></span>
+      <span class="cou sh csh1">巴楚县</span>
+      <span class="cou sh csh2">莎车县</span>
+      <span class="cou sh csh3">泽普县</span>
+      <span class="cou sh csh4">叶城县</span>
+      <span class="pro sh psh">上海市</span>				
+      <!-- 江苏 -->
+      <span class="dot js djs1"></span>
+      <span class="dot js djs2"></span>
+      <span class="dot js djs3"></span>
+      <span class="dot js djs4"></span>
+      <span class="dot js djs5"></span>
+
+      <span class="cou js cjs1">霍城县</span>
+      <span class="cou js cjs2">察布查尔锡伯自治县</span>
+      <span class="cou js cjs3">伊宁县</span>
+      <span class="cou js cjs4">阿图什市</span>
+      <span class="cou js cjs5">乌恰县</span>
+
+      <span class="pro js pjs">江苏省</span>		
+      <!-- 浙江 -->
+      <span class="dot zj dzj1"></span>
+      <span class="cou zj czj1">阿克苏地区</span>
+      <span class="pro zj pzj">浙江省</span>	
+      <!-- 安徽 -->
+      <span class="dot ah dah1"></span>
+      <span class="cou ah cah1">皮山县</span>
+      <span class="pro ah pah">安徽省</span>	
+      <!-- 福建 -->
+      <span class="dot fj dfj1"></span>
+      <span class="dot fj dfj2"></span>
+      <span class="dot fj dfj3"></span>
+      <span class="dot fj dfj4"></span>
+      <span class="dot fj dfj5"></span>
+      <span class="dot fj dfj6"></span>
+      <span class="cou fj cfj1">玛纳斯县</span>
+      <span class="cou fj cfj2">呼图壁县</span>
+      <span class="cou fj cfj3">昌吉市</span>
+      <span class="cou fj cfj4">吉木萨尔县</span>
+      <span class="cou fj cfj5">奇台县</span>
+      <span class="cou fj cfj6">木垒县</span>
+      <span class="pro fj pfj">福建省</span>	
+      <!-- 江西 -->
+      <span class="dot jx djx1"></span>
+      <span class="cou jx cjx1">阿克陶县</span>
+      <span class="pro jx pjx">江西省</span>	
+      <!-- 山东 -->
+      <span class="dot sd dsd1"></span>
+      <span class="dot sd dsd2"></span>
+      <span class="dot sd dsd3"></span>
+      <span class="dot sd dsd4"></span>
+      <span class="cou sd csd1">疏勒县</span>
+      <span class="cou sd csd2">英吉沙县</span>
+      <span class="cou sd csd3">岳普湖县</span>
+      <span class="cou sd csd4">麦盖提县</span>
+      <span class="pro sd psd">山东省</span>
+      <!-- 湖南 -->
+      <span class="dot nh dnh1"></span>
+      <span class="cou nh cnh1">吐鲁番地区</span>
+      <span class="pro nh pnh">湖南省</span>			
+      <!-- 湖北 -->
+      <span class="dot bh dbh1"></span>
+      <span class="cou bh cbh1">博乐市</span>
+      <span class="pro bh pbh">湖北省</span>				
+      <!-- 河南 -->
+      <span class="dot hn dhn1"></span>
+      <span class="cou hn chn1">哈密地区</span>
+      <span class="pro hn phn">河南省</span>				
+      <!-- 广东 -->
+      <span class="dot gd dgd1"></span>
+      <span class="dot gd dgd2"></span>
+      <span class="dot gd dgd3"></span>
+      <span class="cou gd cgd1">乌恰县</span>
+      <span class="cou gd cgd2">伽师县</span>
+      <span class="cou gd cgd3">图木舒克市</span>
+      <span class="pro gd pgd">广东省</span>	
+      <!-- 深圳 -->
+      <span class="dot sz dsz1"></span>
+      <span class="dot sz dsz2"></span>
+      <span class="cou sz csz1">喀什市</span>
+      <span class="cou sz csz2">塔什库尔干县</span>
+      <span class="pro sz psz">深圳市</span>	
+      <!-- mb -->
+      <span class="dot mb dmb1"></span>
+      <span class="dot mb dmb2"></span>
+      <span class="dot mb dmb3"></span>
+      <span class="cou mb cmb1"></span>
+      <span class="cou mb cmb2"></span>
+      <span class="cou mb cmb3"></span>
+      <span class="pro mb pmb"></span>	
+    </div>
+  </div>
+  <div class="bottom-img"></div>
+</div>
+</template>
+
+
+<style>
+:focus {
+  outline: 0;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+.hide {
+  display: none !important;
+}
+.mainwrap {
+  font: 14px/1.5 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+  min-width: 1000px!important;
+  color: #000;
+  background-image: url('@&bg.jpg&');
+  background-repeat: no-repeat;
+}
+.bubble.tips {
+  position: absolute;
+  top: 410px;
+  left: 350px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  z-index: 999;
+}
+.bubble.tips a h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff!important;
+}
+.bubble.tips a p {
+  font-size: 14px;
+  color: #fff;
+}
+/* CSS talk bubble */
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  width: 251px;
+  height: auto;
+  background: #12c0c1 url('http://xj.people.com.cn/img/LOCAL/2016/11/112998/img/texture.png') 0 0 repeat;
+}
+.border {
+  border: 8px solid #666;
+}
+.round {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  right: auto;
+  top: -8px;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #11bcbd;
+  background: #12c0c1 url(../img/texture.png) 0 0 repeat;
+}
+/* Right triangle, left side slightly down */
+.tri-right.border.left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  right: auto;
+  top: 30px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent;
+}
+.tri-right.left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: #e05579 #e05579 transparent transparent;
+}
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -8px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 32px solid;
+  border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 22px solid;
+  border-color: transparent transparent transparent lightyellow;
+}
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.btm-left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #11bcbd transparent transparent #11bcbd;
+}
+.talk-bubble.obj {
+  background: #e05579;
+}
+.talk-bubble.obj:after {
+  border-color: #e05579 transparent transparent #e05579 !important;
+}
+.talk-bubble.otj {
+  background: #00b29a;
+}
+.talk-bubble.otj:after {
+  border-color: #00b29a transparent transparent #00b29a !important;
+}
+.talk-bubble.ohb {
+  background: #179af2;
+}
+.talk-bubble.ohb:after {
+  border-color: #179af2 transparent transparent #179af2 !important;
+}
+.talk-bubble.osx {
+  background: #ff7f4b;
+}
+.talk-bubble.osx:after {
+  border-color: #ff7f4b transparent transparent #ff7f4b !important;
+}
+.talk-bubble.oln {
+  background: #0de669;
+}
+.talk-bubble.oln:after {
+  border-color: #0de669 transparent transparent #0de669 !important;
+}
+.talk-bubble.ojl {
+  background: #17a851;
+}
+.talk-bubble.ojl:after {
+  border-color: #17a851 transparent transparent #17a851 !important;
+}
+.talk-bubble.ohl {
+  background: #e04c49;
+}
+.talk-bubble.ohl:after {
+  border-color: #e04c49 transparent transparent #e04c49 !important;
+}
+.talk-bubble.osh {
+  background: #276298;
+}
+.talk-bubble.osh:after {
+  border-color: #276298 transparent transparent #276298 !important;
+}
+.talk-bubble.ojs {
+  background: #ff9f49;
+}
+.talk-bubble.ojs:after {
+  border-color: #ff9f49 transparent transparent #ff9f49 !important;
+}
+.talk-bubble.ozj {
+  background: #179af2;
+}
+.talk-bubble.ozj:after {
+  border-color: #179af2 transparent transparent #179af2 !important;
+}
+.talk-bubble.oah {
+  background: #767b81;
+}
+.talk-bubble.oah:after {
+  border-color: #767b81 transparent transparent #767b81 !important;
+}
+.talk-bubble.ofj {
+  background: #1b70b9;
+}
+.talk-bubble.ofj:after {
+  border-color: #1b70b9 transparent transparent #1b70b9 !important;
+}
+.talk-bubble.ojx {
+  background: #bfb9b4;
+}
+.talk-bubble.ojx:after {
+  border-color: #bfb9b4 transparent transparent #bfb9b4 !important;
+}
+.talk-bubble.osd {
+  background: #836c57;
+}
+.talk-bubble.osd:after {
+  border-color: #836c57 transparent transparent #836c57 !important;
+}
+.talk-bubble.onh {
+  background: #2d4c71;
+}
+.talk-bubble.onh:after {
+  border-color: #2d4c71 transparent transparent  #2d4c71 !important;
+}
+.talk-bubble.obh {
+  background: #6bb84d;
+}
+.talk-bubble.obh:after {
+  border-color: #6bb84d transparent transparent #6bb84d !important;
+}
+.talk-bubble.ohn {
+  background: #da7c86;
+}
+.talk-bubble.ohn:after {
+  border-color: #da7c86 transparent transparent #da7c86 !important;
+}
+.talk-bubble.ogd {
+  background: #ff5700;
+}
+.talk-bubble.ogd:after {
+  border-color: #ff5700 transparent transparent #ff5700 !important;
+}
+.talk-bubble.osz {
+  background: #e4005d;
+}
+.talk-bubble.osz:after {
+  border-color: #e4005d transparent transparent #e4005d !important;
+}
+
+.tri-right.border.btm-right-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 30px;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 38px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: lightyellow lightyellow transparent transparent;
+}
+
+.tri-right.border.btm-right:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -8px;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 0px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: lightyellow lightyellow transparent transparent;
+}
+/* Right triangle, right side slightly down*/
+.tri-right.border.right-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: 30px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: lightyellow transparent transparent lightyellow;
+}
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: -8px;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent;
+}
+.tri-right.right-top:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 0px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: lightyellow transparent transparent transparent;
+}
+/* talk bubble contents */
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
+.talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+.mainwrap {
+  position: relative;
+  overflow: hidden;
+  min-width: 1000px;
+  height: 850px;
+}
+.mainwrap .main {
+  height: 100%;
+  width: 1000px;
+  position: absolute;
+  right: 0;
+}
+.mainwrap .main .logo {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  width: 688px;
+  height: 688px;
+  z-index: 99;
+  -webkit-animation-name: logo;
+  animation-name: logo;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both  ;
+  animation-fill-mode: both  ;
+}
+.mainwrap .main .logo img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.mainwrap .main .map {
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-fill-mode: both  ;
+  animation-fill-mode: both  ;
+}
+.mainwrap .main .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-fill-mode: both  ;
+  animation-fill-mode: both  ;
+}
+.mainwrap .main .info span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.mainwrap .main .info .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.mainwrap .main .info .cou {
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+.mainwrap .main .info .pro {
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.mainwrap .main .info .bj {
+  color: #e05579;
+}
+.mainwrap .main .info .bj.dot {
+  background: #e05579;
+}
+.mainwrap .main .info .bj.dbj1 {
+  top: 596px;
+  left: 240px;
+}
+.mainwrap .main .info .bj.dbj2 {
+  top: 601px;
+  left: 256px;
+}
+.mainwrap .main .info .bj.dbj3 {
+  top: 617px;
+  left: 252px;
+}
+.mainwrap .main .info .bj.dbj4 {
+  top: 614px;
+  left: 267px;
+}
+.mainwrap .main .info .bj.cbj1 {
+  top: 595px;
+  left: 201px;
+}
+.mainwrap .main .info .bj.cbj2 {
+  top: 565px;
+  left: 238px;
+}
+.mainwrap .main .info .bj.cbj3 {
+  top: 625px;
+  left: 205px;
+}
+.mainwrap .main .info .bj.cbj4 {
+  top: 593px;
+  left: 286px;
+}
+.mainwrap .main .info .bj.pbj {
+  top: 559px;
+  left: 297px;
+}
+.mainwrap .main .info .tj {
+  color: #00b29a;
+}
+.mainwrap .main .info .tj.dot {
+  background: #00b29a;
+}
+.mainwrap .main .info .tj.dtj1 {
+  top: 631px;
+  left: 289px;
+}
+.mainwrap .main .info .tj.dtj2 {
+  top: 642px;
+  left: 316px;
+}
+.mainwrap .main .info .tj.dtj3 {
+  top: 644px;
+  left: 354px;
+}
+.mainwrap .main .info .tj.ctj1 {
+  top: 644px;
+  left: 257px;
+}
+.mainwrap .main .info .tj.ctj2 {
+  top: 664px;
+  left: 287px;
+}
+.mainwrap .main .info .tj.ctj3 {
+  top: 608px;
+  left: 341px;
+}
+.mainwrap .main .info .tj.ptj {
+  top: 662px;
+  left: 365px;
+}
+.mainwrap .main .info .hb {
+  color: #179af2;
+}
+.mainwrap .main .info .hb.dot {
+  background: #179af2;
+}
+.mainwrap .main .info .hb.dhb1 {
+  top: 587px;
+  left: 594px;
+}
+.mainwrap .main .info .hb.chb1 {
+  top: 544px;
+  left: 567px;
+}
+.mainwrap .main .info .hb.phb {
+  top: 620px;
+  left: 579px;
+}
+.mainwrap .main .info .sx {
+  color: #ff7f4b;
+}
+.mainwrap .main .info .sx.dot {
+  background: #ff7f4b;
+}
+.mainwrap .main .info .sx.dsx1 {
+  top: 297px;
+  left: 628px;
+}
+.mainwrap .main .info .sx.dsx2 {
+  top: 321px;
+  left: 642px;
+}
+.mainwrap .main .info .sx.csx1 {
+  top: 257px;
+  left: 591px;
+}
+.mainwrap .main .info .sx.csx2 {
+  top: 350px;
+  left: 624px;
+}
+.mainwrap .main .info .sx.psx {
+  top: 285px;
+  left: 655px;
+}
+.mainwrap .main .info .ln {
+  color: #0de669;
+}
+.mainwrap .main .info .ln.dot {
+  background: #0de669;
+}
+.mainwrap .main .info .ln.dln1 {
+  top: 155px;
+  left: 497px;
+}
+.mainwrap .main .info .ln.cln1 {
+  top: 172px;
+  left: 483px;
+}
+.mainwrap .main .info .ln.pln {
+  top: 192px;
+  left: 479px;
+}
+.mainwrap .main .info .jl {
+  color: #17a851;
+}
+.mainwrap .main .info .jl.dot {
+  background: #17a851;
+}
+.mainwrap .main .info .jl.djl1 {
+  top: 142px;
+  left: 594px;
+}
+.mainwrap .main .info .jl.djl2 {
+  top: 113px;
+  left: 619px;
+}
+.mainwrap .main .info .jl.djl3 {
+  top: 131px;
+  left: 634px;
+}
+.mainwrap .main .info .jl.djl4 {
+  top: 133px;
+  left: 688px;
+}
+.mainwrap .main .info .jl.cjl1 {
+  top: 165px;
+  left: 575px;
+}
+.mainwrap .main .info .jl.cjl2 {
+  top: 92px;
+  left: 561px;
+}
+.mainwrap .main .info .jl.cjl3 {
+  top: 146px;
+  left: 628px;
+}
+.mainwrap .main .info .jl.cjl4 {
+  top: 131px;
+  left: 720px;
+}
+.mainwrap .main .info .jl.pjl {
+  top: 86px;
+  left: 653px;
+}
+.mainwrap .main .info .hl {
+  color: #e04c49;
+}
+.mainwrap .main .info .hl.dot {
+  background: #e04c49;
+}
+.mainwrap .main .info .hl.dhl1 {
+  top: 171px;
+  left: 653px;
+}
+.mainwrap .main .info .hl.dhl2 {
+  top: 182px;
+  left: 720px;
+}
+.mainwrap .main .info .hl.dhl3 {
+  top: 200px;
+  left: 749px;
+}
+.mainwrap .main .info .hl.chl1 {
+  top: 190px;
+  left: 648px;
+}
+.mainwrap .main .info .hl.chl2 {
+  top: 154px;
+  left: 712px;
+}
+.mainwrap .main .info .hl.chl3 {
+  top: 193px;
+  left: 768px;
+}
+.mainwrap .main .info .hl.phl {
+  top: 216px;
+  left: 694px;
+}
+.mainwrap .main .info .sh {
+  color: #276298;
+}
+.mainwrap .main .info .sh.dot {
+  background: #276298;
+}
+.mainwrap .main .info .sh.dsh1 {
+  top: 465px;
+  left: 232px;
+}
+.mainwrap .main .info .sh.dsh2 {
+  top: 516px;
+  left: 163px;
+}
+.mainwrap .main .info .sh.dsh3 {
+  top: 532px;
+  left: 154px;
+}
+.mainwrap .main .info .sh.dsh4 {
+  top: 548px;
+  left: 166px;
+}
+.mainwrap .main .info .sh.csh1 {
+  top: 440px;
+  left: 226px;
+}
+.mainwrap .main .info .sh.csh2 {
+  top: 508px;
+  left: 115px;
+}
+.mainwrap .main .info .sh.csh3 {
+  top: 536px;
+  left: 108px;
+}
+.mainwrap .main .info .sh.csh4 {
+  top: 576px;
+  left: 154px;
+}
+.mainwrap .main .info .sh.psh {
+  top: 516px;
+  left: 192px;
+}
+.mainwrap .main .info .js {
+  color: #ff9f49;
+}
+.mainwrap .main .info .js.dot {
+  background: #ff9f49;
+}
+.mainwrap .main .info .js.djs1 {
+  top: 265px;
+  left: 372px;
+}
+.mainwrap .main .info .js.djs2 {
+  top: 283px;
+  left: 382px;
+}
+.mainwrap .main .info .js.djs3 {
+  top: 273px;
+  left: 399px;
+}
+.mainwrap .main .info .js.djs4 {
+  top: 432px;
+  left: 138px;
+}
+.mainwrap .main .info .js.djs5 {
+  top: 424px;
+  left: 104px;
+}
+.mainwrap .main .info .js.cjs1 {
+  top: 265px;
+  left: 319px;
+}
+.mainwrap .main .info .js.cjs2 {
+  top: 313px;
+  left: 305px;
+}
+.mainwrap .main .info .js.cjs3 {
+  top: 295px;
+  left: 440px;
+}
+.mainwrap .main .info .js.cjs4 {
+  top: 423px;
+  left: 160px;
+}
+.mainwrap .main .info .js.cjs5 {
+  top: 398px;
+  left: 74px;
+}
+.mainwrap .main .info .js.pjs {
+  top: 326px;
+  left: 432px;
+}
+.mainwrap .main .info .zj {
+  color: #179af2;
+}
+.mainwrap .main .info .zj.dot {
+  background: #179af2;
+}
+.mainwrap .main .info .zj.dzj1 {
+  top: 396px;
+  left: 373px;
+}
+.mainwrap .main .info .zj.czj1 {
+  top: 372px;
+  left: 352px;
+}
+.mainwrap .main .info .zj.pzj {
+  top: 417px;
+  left: 352px;
+}
+.mainwrap .main .info .ah {
+  color: #767b81;
+}
+.mainwrap .main .info .ah.dot {
+  background: #767b81;
+}
+.mainwrap .main .info .ah.dah1 {
+  top: 564px;
+  left: 192px;
+}
+.mainwrap .main .info .ah.cah1 {
+  top: 545px;
+  left: 214px;
+}
+.mainwrap .main .info .ah.pah {
+  top: 594px;
+  left: 125px;
+}
+.mainwrap .main .info .fj {
+  color: #1b70b9;
+}
+.mainwrap .main .info .fj.dot {
+  background: #1b70b9;
+}
+.mainwrap .main .info .fj.dfj1 {
+  top: 301px;
+  left: 575px;
+}
+.mainwrap .main .info .fj.dfj2 {
+  top: 313px;
+  left: 599px;
+}
+.mainwrap .main .info .fj.dfj3 {
+  top: 321px;
+  left: 619px;
+}
+.mainwrap .main .info .fj.dfj4 {
+  top: 336px;
+  left: 683px;
+}
+.mainwrap .main .info .fj.dfj5 {
+  top: 342px;
+  left: 702px;
+}
+.mainwrap .main .info .fj.dfj6 {
+  top: 358px;
+  left: 724px;
+}
+.mainwrap .main .info .fj.cfj1 {
+  top: 302px;
+  left: 513px;
+}
+.mainwrap .main .info .fj.cfj2 {
+  top: 328px;
+  left: 532px;
+}
+.mainwrap .main .info .fj.cfj3 {
+  top: 346px;
+  left: 575px;
+}
+.mainwrap .main .info .fj.cfj4 {
+  top: 314px;
+  left: 701px;
+}
+.mainwrap .main .info .fj.cfj5 {
+  top: 332px;
+  left: 727px;
+}
+.mainwrap .main .info .fj.cfj6 {
+  top: 364px;
+  left: 760px;
+}
+.mainwrap .main .info .fj.pfj {
+  top: 372px;
+  left: 558px;
+}
+.mainwrap .main .info .jx {
+  color: #bfb9b4;
+}
+.mainwrap .main .info .jx.dot {
+  background: #bfb9b4;
+}
+.mainwrap .main .info .jx.djx1 {
+  top: 473px;
+  left: 123px;
+}
+.mainwrap .main .info .jx.cjx1 {
+  top: 473px;
+  left: 74px;
+}
+.mainwrap .main .info .jx.pjx {
+  top: 450px;
+  left: 49px;
+}
+.mainwrap .main .info .sd {
+  color: #836c57;
+}
+.mainwrap .main .info .sd.dot {
+  background: #836c57;
+}
+.mainwrap .main .info .sd.dsd1 {
+  top: 465px;
+  left: 138px;
+}
+.mainwrap .main .info .sd.dsd2 {
+  top: 486px;
+  left: 137px;
+}
+.mainwrap .main .info .sd.dsd3 {
+  top: 476px;
+  left: 155px;
+}
+.mainwrap .main .info .sd.dsd4 {
+  top: 497px;
+  left: 184px;
+}
+.mainwrap .main .info .sd.csd1 {
+  top: 559px;
+  left: 108px;
+}
+.mainwrap .main .info .sd.csd2 {
+  top: 491px;
+  left: 86px;
+}
+.mainwrap .main .info .sd.csd3 {
+  top: 477px;
+  left: 184px;
+}
+.mainwrap .main .info .sd.csd4 {
+  top: 497px;
+  left: 216px;
+}
+.mainwrap .main .info .sd.psd {
+  top: 512px;
+  left: 258px;
+}
+.mainwrap .main .info .nh {
+  color: #2d4c71;
+}
+.mainwrap .main .info .nh.dot {
+  background: #2d4c71;
+}
+.mainwrap .main .info .nh.dnh1 {
+  top: 416px;
+  left: 678px;
+}
+.mainwrap .main .info .nh.cnh1 {
+  top: 436px;
+  left: 660px;
+}
+.mainwrap .main .info .nh.pnh {
+  top: 388px;
+  left: 661px;
+}
+.mainwrap .main .info .bh {
+  color: #6bb84d;
+}
+.mainwrap .main .info .bh.dot {
+  background: #6bb84d;
+}
+.mainwrap .main .info .bh.dbh1 {
+  top: 236px;
+  left: 440px;
+}
+.mainwrap .main .info .bh.cbh1 {
+  top: 255px;
+  left: 434px;
+}
+.mainwrap .main .info .bh.pbh {
+  top: 231px;
+  left: 388px;
+}
+.mainwrap .main .info .hn {
+  color: #da7c86;
+}
+.mainwrap .main .info .hn.dot {
+  background: #da7c86;
+}
+.mainwrap .main .info .hn.dhn1 {
+  top: 458px;
+  left: 824px;
+}
+.mainwrap .main .info .hn.chn1 {
+  top: 436px;
+  left: 817px;
+}
+.mainwrap .main .info .hn.phn {
+  top: 473px;
+  left: 777px;
+}
+.mainwrap .main .info .gd {
+  color: #ff5700 ;
+}
+.mainwrap .main .info .gd.dot {
+  background: #ff5700 ;
+}
+.mainwrap .main .info .gd.dgd1 {
+  top: 457px;
+  left: 115px;
+}
+.mainwrap .main .info .gd.dgd2 {
+  top: 457px;
+  left: 162px;
+}
+.mainwrap .main .info .gd.dgd3 {
+  top: 473px;
+  left: 260px;
+}
+.mainwrap .main .info .gd.cgd1 {
+  top: 430px;
+  left: 62px;
+}
+.mainwrap .main .info .gd.cgd2 {
+  top: 453px;
+  left: 181px;
+}
+.mainwrap .main .info .gd.cgd3 {
+  top: 473px;
+  left: 298px;
+}
+.mainwrap .main .info .gd.pgd {
+  top: 440px;
+  left: 297px;
+}
+.mainwrap .main .info .sz {
+  color: #e4005d;
+}
+.mainwrap .main .info .sz.dot {
+  background: #e4005d;
+}
+.mainwrap .main .info .sz.dsz1 {
+  top: 449px;
+  left: 135px;
+}
+.mainwrap .main .info .sz.dsz2 {
+  top: 524px;
+  left: 74px;
+}
+.mainwrap .main .info .sz.csz1 {
+  top: 441px;
+  left: 154px;
+}
+.mainwrap .main .info .sz.csz2 {
+  top: 507px;
+  left: 19px;
+}
+.mainwrap .main .info .sz.psz {
+  top: 543px;
+  left: 25px;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulse {
+  z-index: 9;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.2, 0.2, 0.2);
+    transform: scale3d(0.2, 0.2, 0.2);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(0.474, 0.474, 0.474);
+    transform: scale3d(0.474, 0.474, 0.474);
+  }
+}
+@keyframes logo {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.2, 0.2, 0.2);
+    transform: scale3d(0.2, 0.2, 0.2);
+  }
+  70% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(0.474, 0.474, 0.474);
+    transform: scale3d(0.474, 0.474, 0.474);
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+/*top nav*/
+.top_nav{background: #fff;line-height: 39px;height:39px; }
+.top_nav img{ float:left; vertical-align:middle; margin:5px 20px auto 20px;}
+.top_nav span{ float:right; margin-right:10px; line-height:35px; color:#565656}
+.top_nav span a{ color:#565656; padding:0 6px;}
+.top_nav b{ float:left; font-size:18px; color:#BE140B; font-family:\9ED41\4F53; margin-left:10px;}
+.w1000{ width:1000px; margin:0 auto}
+.bottom-img {
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('@&bottom-img.png&');
+}
+</style>

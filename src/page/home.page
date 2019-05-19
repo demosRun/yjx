@@ -1,0 +1,68 @@
+<template>
+  <div class="home">
+    <temple name="newsList"  src="./src/module/path.owo"></temple>
+    <div class="content">
+      <temple name="t7tueUOSnJGcyGcc"  src="https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page"></temple>
+      <div class="show-box clear">
+        <div class="left fl">
+          <temple name="SVZSnmecHrAhzur1"  src="https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page"></temple>
+        </div>
+        <div class="right fl">
+          <temple name="newsList"  src="https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page"></temple>
+        </div>
+      </div>
+      <temple name="imageBar"  src="./src/module/imageBar.owo">
+        <span class="blue">高清</span>
+        <span class="red">动态图</span>
+      </temple>
+    </div>
+    <div class="swiper-box">
+      <temple name="swiper"  src="https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page"></temple>
+    </div>
+    <temple name="infoCopyright"  src="./src/module/infoCopyright.owo"></temple>
+    <!-- 右侧浮动排行榜 -->
+    <temple name="ranking"  src="./src/module/ranking.owo"></temple>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.fl {
+  float: left;
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.blue {
+  color: #0e4e8b;
+}
+.red {
+  color: #c70000;
+}
+.show-box {
+  padding: 10px 0;
+}
+.image-bar {
+  margin: 5px 0;
+}
+.swiper-box {
+  padding: 30px 0;
+  margin-bottom: 85px;
+  background-color: #eeeeee;
+}
+.news-list {
+  font-family: "SimHei";
+}
+// 轮播图小圆点活跃样式
+.banner-box .left .pagination-pPX8XxuUyIehAAEu .swiper-active-switch {
+  background-color: #f4b06c;
+}
+</style>

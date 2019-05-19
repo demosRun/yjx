@@ -1,0 +1,1444 @@
+14:38:52.090 DEBUG 获取到配置信息: 
+14:38:52.090 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"merge":true,"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}],"scriptList":[{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}],"styleList":[{"name":"main","src":"./src/main.css","resource":true},{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.css","resource":true}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"merge":true,"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10,"merge":false}}} 
+14:38:52.090 INFO  --------------------------- 开始编译 --------------------------- 
+14:38:52.090 INFO  程序运行目录: D:\work\yjx 
+14:38:52.090 INFO  首次启动! 
+14:38:52.090 INFO  生成版本号: 5f847ltujrf 
+14:38:52.097 INFO  清理资源文件夹: D:\work\yjx\dist\static 
+14:38:52.097 INFO  文件夹不存在: D:\work\yjx\dist\static 
+14:38:52.097 INFO  创建文件夹: D:\work\yjx\dist\static 
+14:38:52.097 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:38:52.097 DEBUG 读取网页标题: 页面 
+14:38:52.097 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:38:52.098 DEBUG 处理模板: ./src/page/home.page 
+14:38:52.122 DEBUG 处理模板: ./src/module/path.owo 
+14:38:52.122 ERROR 模块: newsList 不包含script 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.172 DEBUG 发现 comment 规则: undefined 
+14:38:52.173 DEBUG 发现 keyframes 规则: pulse 
+14:38:52.173 DEBUG 发现 keyframes 规则: pulse 
+14:38:52.173 DEBUG 发现 keyframes 规则: logo 
+14:38:52.173 DEBUG 发现 keyframes 规则: logo 
+14:38:52.173 DEBUG 发现 keyframes 规则: fadeIn 
+14:38:52.173 DEBUG 发现 keyframes 规则: fadeIn 
+14:38:52.173 DEBUG 发现 comment 规则: undefined 
+14:38:52.174 DEBUG 缓存模板: ./src/module/path.owo 
+14:38:52.175 DEBUG 模板newsList处理用时: 52 毫秒! 
+14:38:52.195 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:38:52.195 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:38:52.195 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:38:52.439 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:38:52.439 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 244 毫秒! 
+14:38:52.441 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:38:52.441 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:38:52.448 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:38:52.448 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+14:38:52.451 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:38:52.451 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:38:52.460 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:38:52.460 DEBUG 模板newsList处理用时: 9 毫秒! 
+14:38:52.462 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:38:52.462 ERROR 模块: imageBar 不包含script 
+14:38:52.467 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:38:52.467 DEBUG 模板imageBar处理用时: 5 毫秒! 
+14:38:52.467 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:38:52.468 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:38:52.477 DEBUG 发现 comment 规则: undefined 
+14:38:52.478 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:38:52.478 DEBUG 模板swiper处理用时: 11 毫秒! 
+14:38:52.481 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:38:52.481 ERROR 模块: infoCopyright 不包含script 
+14:38:52.485 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:38:52.485 DEBUG 模板infoCopyright处理用时: 4 毫秒! 
+14:38:52.486 DEBUG 处理模板: ./src/module/ranking.owo 
+14:38:52.512 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:38:52.512 DEBUG 模板ranking处理用时: 26 毫秒! 
+14:38:52.531 DEBUG 缓存模板: ./src/page/home.page 
+14:38:52.531 DEBUG 模板home处理用时: 433 毫秒! 
+14:38:52.532 INFO  文件夹不存在: D:\work\yjx\dist\static\resource 
+14:38:52.532 INFO  创建文件夹: D:\work\yjx\dist\static\resource 
+14:38:52.533 DEBUG 处理资源: D:\work\yjx\src\resource\bg.jpg,D:\work\yjx\src\resource\title.png,D:\work\yjx\src\resource\top-bar.png,D:\work\yjx\src\resource\fabulous.png,D:\work\yjx\src\resource\noSupport.png 
+14:38:52.535 INFO  css中的资源处理完毕! 
+14:38:52.535 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:38:52.565 INFO  正在处理script! 
+14:38:52.566 INFO  工程中只有一个页面! 
+14:38:52.566 DEBUG 页面中不包含切换动画! 
+14:38:57.692 INFO  文件夹不存在: D:\work\yjx\dist\static\js 
+14:38:57.692 INFO  创建文件夹: D:\work\yjx\dist\static\js 
+14:38:57.692 DEBUG 选择将js合并到html中! 
+14:38:57.710 INFO  js中的资源处理完毕! 
+14:38:57.711 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+14:38:57.711 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
+14:38:57.712 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:38:57.712 DEBUG 外部脚本数量: 5 
+14:38:57.712 DEBUG 处理脚本: swiper 
+14:38:57.712 DEBUG 不使用bable处理脚本! 
+14:38:57.712 INFO  读取文件: D:\work\yjx\src\resource\idangerous.swiper2.7.0.min.js 
+14:38:57.712 DEBUG 处理脚本: jquery1.11.0 
+14:38:57.712 DEBUG 网络脚本: jquery1.11.0 
+14:38:57.712 DEBUG 处理脚本: roundabout 
+14:38:57.712 DEBUG 不使用bable处理脚本! 
+14:38:57.712 INFO  读取文件: D:\work\yjx\src\resource\roundabout.js 
+14:38:57.712 DEBUG 处理脚本: jquery.easing.1.3 
+14:38:57.712 DEBUG 不使用bable处理脚本! 
+14:38:57.712 INFO  读取文件: D:\work\yjx\src\resource\jquery.easing.1.3.js 
+14:38:57.712 DEBUG 处理脚本: path.js 
+14:38:57.712 DEBUG 不使用bable处理脚本! 
+14:38:57.712 INFO  读取文件: D:\work\yjx\src\main.js 
+14:38:57.712 DEBUG 输出scriptData 
+14:38:57.712 DEBUG 判断是否可以输出Html! 
+14:38:57.712 DEBUG 还有没有经过处理的资源! 
+14:38:57.712 INFO  监控文件夹变化: D:\work\yjx\src 
+14:38:57.723 INFO  服务器运行在: 127.0.0.1:8000 
+14:38:57.960 INFO  使用postcss处理完毕! 用时: 5425 毫秒 
+14:38:57.960 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:38:57.960 INFO  文件夹不存在: D:\work\yjx\dist\static\css 
+14:38:57.960 INFO  创建文件夹: D:\work\yjx\dist\static\css 
+14:38:57.960 INFO  开始处理附属css中的资源 
+14:38:57.961 INFO  附属css中的资源处理完毕! 
+14:38:57.961 INFO  开始处理附属css中的资源 
+14:38:57.961 INFO  附属css中的资源处理完毕! 
+14:38:57.961 DEBUG 判断是否可以输出Html! 
+14:38:57.961 DEBUG 准备输出html! 
+14:38:57.961 DEBUG 开始美化html 
+14:38:58.040 INFO  发送重新页面需要刷新命令! 
+14:38:58.235 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+14:38:58.235 INFO  读取成功: D:\work\yjx\src\main.js 
+14:38:58.235 INFO  读取成功: D:\work\yjx\src\main.css 
+14:38:58.235 ERROR 找不到资源文件: D:\work\yjx\src\resource\bg-spot.png 
+14:38:58.253 INFO  读取成功: D:\work\yjx\src\resource\jquery.easing.1.3.js 
+14:38:58.330 INFO  读取成功: D:\work\yjx\src\resource\idangerous.swiper2.7.0.css 
+14:38:58.330 INFO  读取成功: D:\work\yjx\src\resource\roundabout.js 
+14:38:58.333 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
+14:38:58.336 INFO  写入文件: D:\work\yjx\dist\static\js\autoReload.js 
+14:38:58.336 INFO  写入文件: D:\work\yjx\dist\static\js\path.js.js 
+14:38:58.336 INFO  写入文件: D:\work\yjx\dist\static\css\main.css 
+14:38:58.357 INFO  写入文件: D:\work\yjx\dist\static\js\jquery.easing.1.3.js 
+14:38:58.363 INFO  写入文件: D:\work\yjx\dist\static\css\swiper.css 
+14:38:58.363 INFO  写入文件: D:\work\yjx\dist\static\js\log.js 
+14:38:58.363 INFO  读取成功: D:\work\yjx\src\resource\idangerous.swiper2.7.0.min.js 
+14:38:58.363 INFO  写入文件: D:\work\yjx\dist\static\js\roundabout.js 
+14:38:58.367 INFO  写入文件: D:\work\yjx\dist\static\js\swiper.js 
+14:38:58.518 DEBUG 文件处理成功: 
+14:38:58.518 DEBUG D:\work\yjx\dist\static\resource\bg.jpg 
+14:38:58.518 DEBUG D:\work\yjx\dist\static\resource\title.png 
+14:38:58.518 DEBUG D:\work\yjx\dist\static\resource\top-bar.png 
+14:38:58.518 DEBUG D:\work\yjx\dist\static\resource\fabulous.png 
+14:38:58.518 DEBUG D:\work\yjx\dist\static\resource\noSupport.png 
+14:43:13.990 INFO  file change: D:\work\yjx\src\module\path.owo 
+14:43:13.991 INFO  --------------------------- 开始编译 --------------------------- 
+14:43:13.991 INFO  程序运行目录: D:\work\yjx 
+14:43:13.991 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+14:43:13.991 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:43:13.991 DEBUG 读取网页标题: 页面 
+14:43:13.991 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:43:13.992 DEBUG 处理模板: ./src/page/home.page 
+14:43:13.998 DEBUG 处理模板: ./src/module/path.owo 
+14:43:13.999 ERROR 模块: newsList 不包含script 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.056 DEBUG 发现 keyframes 规则: pulse 
+14:43:14.056 DEBUG 发现 keyframes 规则: pulse 
+14:43:14.056 DEBUG 发现 keyframes 规则: logo 
+14:43:14.056 DEBUG 发现 keyframes 规则: logo 
+14:43:14.056 DEBUG 发现 keyframes 规则: fadeIn 
+14:43:14.056 DEBUG 发现 keyframes 规则: fadeIn 
+14:43:14.056 DEBUG 发现 comment 规则: undefined 
+14:43:14.057 DEBUG 缓存模板: ./src/module/path.owo 
+14:43:14.057 DEBUG 模板newsList处理用时: 59 毫秒! 
+14:43:14.076 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:43:14.076 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:43:14.137 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:43:14.143 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:43:14.143 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 67 毫秒! 
+14:43:14.144 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:43:14.144 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:43:14.175 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:43:14.175 DEBUG 模板SVZSnmecHrAhzur1处理用时: 31 毫秒! 
+14:43:14.178 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:43:14.178 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:43:14.186 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:43:14.186 DEBUG 模板newsList处理用时: 8 毫秒! 
+14:43:14.187 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:43:14.187 ERROR 模块: imageBar 不包含script 
+14:43:14.191 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:43:14.191 DEBUG 模板imageBar处理用时: 4 毫秒! 
+14:43:14.192 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:43:14.192 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:43:14.199 DEBUG 发现 comment 规则: undefined 
+14:43:14.199 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:43:14.199 DEBUG 模板swiper处理用时: 7 毫秒! 
+14:43:14.202 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:43:14.202 ERROR 模块: infoCopyright 不包含script 
+14:43:14.205 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:43:14.205 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+14:43:14.206 DEBUG 处理模板: ./src/module/ranking.owo 
+14:43:14.232 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:43:14.232 DEBUG 模板ranking处理用时: 26 毫秒! 
+14:43:14.244 DEBUG 缓存模板: ./src/page/home.page 
+14:43:14.244 DEBUG 模板home处理用时: 252 毫秒! 
+14:43:14.245 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:43:14.245 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:43:14.245 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:43:14.245 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:43:14.245 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:43:14.245 INFO  css中的资源处理完毕! 
+14:43:14.245 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:43:14.263 INFO  正在处理script! 
+14:43:14.263 INFO  工程中只有一个页面! 
+14:43:14.264 DEBUG 页面中不包含切换动画! 
+14:43:14.367 DEBUG 选择将js合并到html中! 
+14:43:14.382 INFO  js中的资源处理完毕! 
+14:43:14.382 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:43:14.382 DEBUG 外部脚本数量: 5 
+14:43:14.382 DEBUG 处理脚本: swiper 
+14:43:14.382 DEBUG 不使用bable处理脚本! 
+14:43:14.382 DEBUG 处理脚本: jquery1.11.0 
+14:43:14.382 DEBUG 网络脚本: jquery1.11.0 
+14:43:14.382 DEBUG 处理脚本: roundabout 
+14:43:14.382 DEBUG 不使用bable处理脚本! 
+14:43:14.382 DEBUG 处理脚本: jquery.easing.1.3 
+14:43:14.382 DEBUG 不使用bable处理脚本! 
+14:43:14.383 DEBUG 处理脚本: path.js 
+14:43:14.383 DEBUG 不使用bable处理脚本! 
+14:43:14.383 DEBUG 输出scriptData 
+14:43:14.383 DEBUG 判断是否可以输出Html! 
+14:43:14.383 DEBUG 还有没有经过处理的资源! 
+14:43:14.619 INFO  使用postcss处理完毕! 用时: 374 毫秒 
+14:43:14.619 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:43:14.620 DEBUG 判断是否可以输出Html! 
+14:43:14.620 DEBUG 准备输出html! 
+14:43:14.620 DEBUG 开始美化html 
+14:43:14.716 INFO  发送重新页面需要刷新命令! 
+14:43:14.718 INFO  file change: D:\work\yjx\src\module\path.owo 
+14:43:14.719 INFO  --------------------------- 开始编译 --------------------------- 
+14:43:14.719 INFO  程序运行目录: D:\work\yjx 
+14:43:14.719 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+14:43:14.719 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:43:14.719 DEBUG 读取网页标题: 页面 
+14:43:14.719 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:43:14.719 DEBUG 处理模板: ./src/page/home.page 
+14:43:14.730 DEBUG 处理模板: ./src/module/path.owo 
+14:43:14.731 ERROR 模块: newsList 不包含script 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.781 DEBUG 发现 keyframes 规则: pulse 
+14:43:14.781 DEBUG 发现 keyframes 规则: pulse 
+14:43:14.781 DEBUG 发现 keyframes 规则: logo 
+14:43:14.781 DEBUG 发现 keyframes 规则: logo 
+14:43:14.781 DEBUG 发现 keyframes 规则: fadeIn 
+14:43:14.781 DEBUG 发现 keyframes 规则: fadeIn 
+14:43:14.781 DEBUG 发现 comment 规则: undefined 
+14:43:14.782 DEBUG 缓存模板: ./src/module/path.owo 
+14:43:14.782 DEBUG 模板newsList处理用时: 52 毫秒! 
+14:43:14.801 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:43:14.801 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:43:14.801 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:43:14.807 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:43:14.807 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 6 毫秒! 
+14:43:14.808 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:43:14.808 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:43:14.815 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:43:14.815 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+14:43:14.819 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:43:14.819 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:43:14.827 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:43:14.827 DEBUG 模板newsList处理用时: 8 毫秒! 
+14:43:14.830 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:43:14.830 ERROR 模块: imageBar 不包含script 
+14:43:14.833 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:43:14.833 DEBUG 模板imageBar处理用时: 3 毫秒! 
+14:43:14.834 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:43:14.834 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:43:14.839 DEBUG 发现 comment 规则: undefined 
+14:43:14.839 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:43:14.839 DEBUG 模板swiper处理用时: 5 毫秒! 
+14:43:14.841 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:43:14.841 ERROR 模块: infoCopyright 不包含script 
+14:43:14.844 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:43:14.844 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+14:43:14.845 DEBUG 处理模板: ./src/module/ranking.owo 
+14:43:14.861 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:43:14.861 DEBUG 模板ranking处理用时: 16 毫秒! 
+14:43:14.876 DEBUG 缓存模板: ./src/page/home.page 
+14:43:14.876 DEBUG 模板home处理用时: 157 毫秒! 
+14:43:14.876 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:43:14.876 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:43:14.876 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:43:14.876 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:43:14.877 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:43:14.877 INFO  css中的资源处理完毕! 
+14:43:14.877 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:43:14.889 INFO  正在处理script! 
+14:43:14.889 INFO  工程中只有一个页面! 
+14:43:14.890 DEBUG 页面中不包含切换动画! 
+14:43:14.993 DEBUG 选择将js合并到html中! 
+14:43:15.007 INFO  js中的资源处理完毕! 
+14:43:15.008 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:43:15.008 DEBUG 外部脚本数量: 5 
+14:43:15.008 DEBUG 处理脚本: swiper 
+14:43:15.008 DEBUG 不使用bable处理脚本! 
+14:43:15.008 DEBUG 处理脚本: jquery1.11.0 
+14:43:15.008 DEBUG 网络脚本: jquery1.11.0 
+14:43:15.008 DEBUG 处理脚本: roundabout 
+14:43:15.008 DEBUG 不使用bable处理脚本! 
+14:43:15.008 DEBUG 处理脚本: jquery.easing.1.3 
+14:43:15.008 DEBUG 不使用bable处理脚本! 
+14:43:15.008 DEBUG 处理脚本: path.js 
+14:43:15.008 DEBUG 不使用bable处理脚本! 
+14:43:15.008 DEBUG 输出scriptData 
+14:43:15.008 DEBUG 判断是否可以输出Html! 
+14:43:15.008 DEBUG 还有没有经过处理的资源! 
+14:43:15.165 INFO  使用postcss处理完毕! 用时: 288 毫秒 
+14:43:15.165 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:43:15.165 DEBUG 判断是否可以输出Html! 
+14:43:15.166 DEBUG 准备输出html! 
+14:43:15.166 DEBUG 开始美化html 
+14:43:15.198 INFO  发送重新页面需要刷新命令! 
+14:49:19.202 INFO  file change: D:\work\yjx\src\main.js 
+14:49:19.203 INFO  --------------------------- 开始编译 --------------------------- 
+14:49:19.203 INFO  程序运行目录: D:\work\yjx 
+14:49:19.203 INFO  刷新模式,变化目录: D:\work\yjx\src\main.js 
+14:49:19.203 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:49:19.203 DEBUG 读取网页标题: 页面 
+14:49:19.203 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:49:19.203 DEBUG 处理模板: ./src/page/home.page 
+14:49:19.206 DEBUG 处理模板: ./src/module/path.owo 
+14:49:19.206 ERROR 模块: newsList 不包含script 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.244 DEBUG 发现 keyframes 规则: pulse 
+14:49:19.244 DEBUG 发现 keyframes 规则: pulse 
+14:49:19.244 DEBUG 发现 keyframes 规则: logo 
+14:49:19.244 DEBUG 发现 keyframes 规则: logo 
+14:49:19.244 DEBUG 发现 keyframes 规则: fadeIn 
+14:49:19.244 DEBUG 发现 keyframes 规则: fadeIn 
+14:49:19.244 DEBUG 发现 comment 规则: undefined 
+14:49:19.246 DEBUG 缓存模板: ./src/module/path.owo 
+14:49:19.246 DEBUG 模板newsList处理用时: 40 毫秒! 
+14:49:19.260 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:49:19.260 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:49:19.260 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:49:19.264 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:49:19.264 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 4 毫秒! 
+14:49:19.266 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:49:19.266 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:49:19.272 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:49:19.272 DEBUG 模板SVZSnmecHrAhzur1处理用时: 6 毫秒! 
+14:49:19.274 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:49:19.274 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:49:19.279 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:49:19.279 DEBUG 模板newsList处理用时: 5 毫秒! 
+14:49:19.280 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:49:19.281 ERROR 模块: imageBar 不包含script 
+14:49:19.284 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:49:19.284 DEBUG 模板imageBar处理用时: 4 毫秒! 
+14:49:19.284 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:49:19.284 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:49:19.288 DEBUG 发现 comment 规则: undefined 
+14:49:19.288 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:49:19.288 DEBUG 模板swiper处理用时: 4 毫秒! 
+14:49:19.291 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:49:19.291 ERROR 模块: infoCopyright 不包含script 
+14:49:19.293 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:49:19.293 DEBUG 模板infoCopyright处理用时: 2 毫秒! 
+14:49:19.295 DEBUG 处理模板: ./src/module/ranking.owo 
+14:49:19.310 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:49:19.310 DEBUG 模板ranking处理用时: 15 毫秒! 
+14:49:19.316 DEBUG 缓存模板: ./src/page/home.page 
+14:49:19.316 DEBUG 模板home处理用时: 113 毫秒! 
+14:49:19.317 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:49:19.317 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:49:19.317 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:49:19.317 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:49:19.317 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:49:19.318 INFO  css中的资源处理完毕! 
+14:49:19.318 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:49:19.324 INFO  正在处理script! 
+14:49:19.324 INFO  工程中只有一个页面! 
+14:49:19.325 DEBUG 页面中不包含切换动画! 
+14:49:19.377 DEBUG 选择将js合并到html中! 
+14:49:19.389 INFO  js中的资源处理完毕! 
+14:49:19.390 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:49:19.390 DEBUG 外部脚本数量: 5 
+14:49:19.390 DEBUG 处理脚本: swiper 
+14:49:19.390 DEBUG 不使用bable处理脚本! 
+14:49:19.390 DEBUG 处理脚本: jquery1.11.0 
+14:49:19.390 DEBUG 网络脚本: jquery1.11.0 
+14:49:19.390 DEBUG 处理脚本: roundabout 
+14:49:19.390 DEBUG 不使用bable处理脚本! 
+14:49:19.390 DEBUG 处理脚本: jquery.easing.1.3 
+14:49:19.390 DEBUG 不使用bable处理脚本! 
+14:49:19.390 DEBUG 处理脚本: path.js 
+14:49:19.390 DEBUG 不使用bable处理脚本! 
+14:49:19.390 INFO  读取文件: D:\work\yjx\src\main.js 
+14:49:19.390 DEBUG 输出scriptData 
+14:49:19.390 DEBUG 判断是否可以输出Html! 
+14:49:19.390 DEBUG 还有没有经过处理的资源! 
+14:49:19.534 INFO  使用postcss处理完毕! 用时: 216 毫秒 
+14:49:19.534 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:49:19.535 DEBUG 判断是否可以输出Html! 
+14:49:19.535 DEBUG 准备输出html! 
+14:49:19.535 DEBUG 开始美化html 
+14:49:19.576 INFO  发送重新页面需要刷新命令! 
+14:49:19.589 INFO  读取成功: D:\work\yjx\src\main.js 
+14:49:19.592 INFO  写入文件: D:\work\yjx\dist\static\js\path.js.js 
+14:50:54.278 INFO  file change: D:\work\yjx\src\main.js 
+14:50:54.279 INFO  --------------------------- 开始编译 --------------------------- 
+14:50:54.279 INFO  程序运行目录: D:\work\yjx 
+14:50:54.279 INFO  刷新模式,变化目录: D:\work\yjx\src\main.js 
+14:50:54.279 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:50:54.279 DEBUG 读取网页标题: 页面 
+14:50:54.279 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:50:54.279 DEBUG 处理模板: ./src/page/home.page 
+14:50:54.285 DEBUG 处理模板: ./src/module/path.owo 
+14:50:54.285 ERROR 模块: newsList 不包含script 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.331 DEBUG 发现 keyframes 规则: pulse 
+14:50:54.331 DEBUG 发现 keyframes 规则: pulse 
+14:50:54.331 DEBUG 发现 keyframes 规则: logo 
+14:50:54.331 DEBUG 发现 keyframes 规则: logo 
+14:50:54.331 DEBUG 发现 keyframes 规则: fadeIn 
+14:50:54.331 DEBUG 发现 keyframes 规则: fadeIn 
+14:50:54.331 DEBUG 发现 comment 规则: undefined 
+14:50:54.332 DEBUG 缓存模板: ./src/module/path.owo 
+14:50:54.332 DEBUG 模板newsList处理用时: 47 毫秒! 
+14:50:54.349 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:50:54.349 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:50:54.349 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:50:54.357 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:50:54.357 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 8 毫秒! 
+14:50:54.359 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:50:54.359 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:50:54.366 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:50:54.366 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+14:50:54.368 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:50:54.368 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:50:54.375 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:50:54.375 DEBUG 模板newsList处理用时: 7 毫秒! 
+14:50:54.376 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:50:54.376 ERROR 模块: imageBar 不包含script 
+14:50:54.379 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:50:54.379 DEBUG 模板imageBar处理用时: 3 毫秒! 
+14:50:54.380 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:50:54.380 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:50:54.388 DEBUG 发现 comment 规则: undefined 
+14:50:54.388 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:50:54.388 DEBUG 模板swiper处理用时: 8 毫秒! 
+14:50:54.392 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:50:54.392 ERROR 模块: infoCopyright 不包含script 
+14:50:54.396 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:50:54.396 DEBUG 模板infoCopyright处理用时: 4 毫秒! 
+14:50:54.396 DEBUG 处理模板: ./src/module/ranking.owo 
+14:50:54.415 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:50:54.415 DEBUG 模板ranking处理用时: 19 毫秒! 
+14:50:54.423 DEBUG 缓存模板: ./src/page/home.page 
+14:50:54.423 DEBUG 模板home处理用时: 144 毫秒! 
+14:50:54.424 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:50:54.424 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:50:54.424 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:50:54.424 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:50:54.424 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:50:54.424 INFO  css中的资源处理完毕! 
+14:50:54.424 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:50:54.440 INFO  正在处理script! 
+14:50:54.441 INFO  工程中只有一个页面! 
+14:50:54.441 DEBUG 页面中不包含切换动画! 
+14:50:54.539 DEBUG 选择将js合并到html中! 
+14:50:54.553 INFO  js中的资源处理完毕! 
+14:50:54.553 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:50:54.553 DEBUG 外部脚本数量: 5 
+14:50:54.553 DEBUG 处理脚本: swiper 
+14:50:54.553 DEBUG 不使用bable处理脚本! 
+14:50:54.553 DEBUG 处理脚本: jquery1.11.0 
+14:50:54.553 DEBUG 网络脚本: jquery1.11.0 
+14:50:54.553 DEBUG 处理脚本: roundabout 
+14:50:54.553 DEBUG 不使用bable处理脚本! 
+14:50:54.553 DEBUG 处理脚本: jquery.easing.1.3 
+14:50:54.553 DEBUG 不使用bable处理脚本! 
+14:50:54.553 DEBUG 处理脚本: path.js 
+14:50:54.553 DEBUG 不使用bable处理脚本! 
+14:50:54.553 INFO  读取文件: D:\work\yjx\src\main.js 
+14:50:54.553 DEBUG 输出scriptData 
+14:50:54.554 DEBUG 判断是否可以输出Html! 
+14:50:54.554 DEBUG 还有没有经过处理的资源! 
+14:50:54.731 INFO  使用postcss处理完毕! 用时: 307 毫秒 
+14:50:54.731 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:50:54.732 DEBUG 判断是否可以输出Html! 
+14:50:54.732 DEBUG 准备输出html! 
+14:50:54.732 DEBUG 开始美化html 
+14:50:54.792 INFO  发送重新页面需要刷新命令! 
+14:50:54.813 INFO  读取成功: D:\work\yjx\src\main.js 
+14:50:54.817 INFO  写入文件: D:\work\yjx\dist\static\js\path.js.js 
+14:53:49.161 INFO  file change: D:\work\yjx\src\module\path.owo 
+14:53:49.162 INFO  --------------------------- 开始编译 --------------------------- 
+14:53:49.162 INFO  程序运行目录: D:\work\yjx 
+14:53:49.162 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+14:53:49.162 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:53:49.162 DEBUG 读取网页标题: 页面 
+14:53:49.162 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:53:49.162 DEBUG 处理模板: ./src/page/home.page 
+14:53:49.166 DEBUG 处理模板: ./src/module/path.owo 
+14:53:49.167 ERROR 模块: newsList 不包含script 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.213 DEBUG 发现 keyframes 规则: pulse 
+14:53:49.213 DEBUG 发现 keyframes 规则: pulse 
+14:53:49.213 DEBUG 发现 keyframes 规则: logo 
+14:53:49.213 DEBUG 发现 keyframes 规则: logo 
+14:53:49.213 DEBUG 发现 keyframes 规则: fadeIn 
+14:53:49.213 DEBUG 发现 keyframes 规则: fadeIn 
+14:53:49.213 DEBUG 发现 comment 规则: undefined 
+14:53:49.215 DEBUG 缓存模板: ./src/module/path.owo 
+14:53:49.215 DEBUG 模板newsList处理用时: 49 毫秒! 
+14:53:49.230 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:53:49.230 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:53:49.230 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:53:49.237 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:53:49.237 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 7 毫秒! 
+14:53:49.239 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:53:49.239 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:53:49.246 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:53:49.246 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+14:53:49.249 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:53:49.249 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:53:49.257 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:53:49.257 DEBUG 模板newsList处理用时: 8 毫秒! 
+14:53:49.258 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:53:49.258 ERROR 模块: imageBar 不包含script 
+14:53:49.262 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:53:49.262 DEBUG 模板imageBar处理用时: 4 毫秒! 
+14:53:49.262 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:53:49.262 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:53:49.267 DEBUG 发现 comment 规则: undefined 
+14:53:49.267 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:53:49.267 DEBUG 模板swiper处理用时: 5 毫秒! 
+14:53:49.269 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:53:49.269 ERROR 模块: infoCopyright 不包含script 
+14:53:49.272 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:53:49.272 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+14:53:49.273 DEBUG 处理模板: ./src/module/ranking.owo 
+14:53:49.289 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:53:49.289 DEBUG 模板ranking处理用时: 16 毫秒! 
+14:53:49.298 DEBUG 缓存模板: ./src/page/home.page 
+14:53:49.298 DEBUG 模板home处理用时: 136 毫秒! 
+14:53:49.299 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:53:49.299 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:53:49.299 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:53:49.299 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:53:49.299 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:53:49.299 INFO  css中的资源处理完毕! 
+14:53:49.299 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:53:49.315 INFO  正在处理script! 
+14:53:49.316 INFO  工程中只有一个页面! 
+14:53:49.316 DEBUG 页面中不包含切换动画! 
+14:53:49.396 DEBUG 选择将js合并到html中! 
+14:53:49.412 INFO  js中的资源处理完毕! 
+14:53:49.412 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:53:49.412 DEBUG 外部脚本数量: 5 
+14:53:49.412 DEBUG 处理脚本: swiper 
+14:53:49.412 DEBUG 不使用bable处理脚本! 
+14:53:49.412 DEBUG 处理脚本: jquery1.11.0 
+14:53:49.412 DEBUG 网络脚本: jquery1.11.0 
+14:53:49.412 DEBUG 处理脚本: roundabout 
+14:53:49.412 DEBUG 不使用bable处理脚本! 
+14:53:49.412 DEBUG 处理脚本: jquery.easing.1.3 
+14:53:49.412 DEBUG 不使用bable处理脚本! 
+14:53:49.412 DEBUG 处理脚本: path.js 
+14:53:49.412 DEBUG 不使用bable处理脚本! 
+14:53:49.412 DEBUG 输出scriptData 
+14:53:49.412 DEBUG 判断是否可以输出Html! 
+14:53:49.412 DEBUG 还有没有经过处理的资源! 
+14:53:49.573 INFO  使用postcss处理完毕! 用时: 273 毫秒 
+14:53:49.573 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:53:49.573 DEBUG 判断是否可以输出Html! 
+14:53:49.573 DEBUG 准备输出html! 
+14:53:49.573 DEBUG 开始美化html 
+14:53:49.630 INFO  发送重新页面需要刷新命令! 
+14:54:17.422 INFO  file change: D:\work\yjx\src\module\path.owo 
+14:54:17.423 INFO  --------------------------- 开始编译 --------------------------- 
+14:54:17.423 INFO  程序运行目录: D:\work\yjx 
+14:54:17.423 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+14:54:17.423 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+14:54:17.423 DEBUG 读取网页标题: 页面 
+14:54:17.423 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+14:54:17.423 DEBUG 处理模板: ./src/page/home.page 
+14:54:17.427 DEBUG 处理模板: ./src/module/path.owo 
+14:54:17.427 ERROR 模块: newsList 不包含script 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.468 DEBUG 发现 comment 规则: undefined 
+14:54:17.469 DEBUG 发现 keyframes 规则: pulse 
+14:54:17.469 DEBUG 发现 keyframes 规则: pulse 
+14:54:17.469 DEBUG 发现 keyframes 规则: logo 
+14:54:17.469 DEBUG 发现 keyframes 规则: logo 
+14:54:17.469 DEBUG 发现 keyframes 规则: fadeIn 
+14:54:17.469 DEBUG 发现 keyframes 规则: fadeIn 
+14:54:17.469 DEBUG 发现 comment 规则: undefined 
+14:54:17.470 DEBUG 缓存模板: ./src/module/path.owo 
+14:54:17.470 DEBUG 模板newsList处理用时: 43 毫秒! 
+14:54:17.490 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:54:17.490 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+14:54:17.491 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+14:54:17.497 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+14:54:17.497 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 7 毫秒! 
+14:54:17.498 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:54:17.498 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+14:54:17.506 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+14:54:17.506 DEBUG 模板SVZSnmecHrAhzur1处理用时: 8 毫秒! 
+14:54:17.509 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:54:17.509 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+14:54:17.515 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+14:54:17.515 DEBUG 模板newsList处理用时: 6 毫秒! 
+14:54:17.516 DEBUG 处理模板: ./src/module/imageBar.owo 
+14:54:17.517 ERROR 模块: imageBar 不包含script 
+14:54:17.520 DEBUG 缓存模板: ./src/module/imageBar.owo 
+14:54:17.520 DEBUG 模板imageBar处理用时: 4 毫秒! 
+14:54:17.521 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:54:17.521 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+14:54:17.525 DEBUG 发现 comment 规则: undefined 
+14:54:17.525 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+14:54:17.525 DEBUG 模板swiper处理用时: 4 毫秒! 
+14:54:17.527 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+14:54:17.527 ERROR 模块: infoCopyright 不包含script 
+14:54:17.530 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+14:54:17.530 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+14:54:17.530 DEBUG 处理模板: ./src/module/ranking.owo 
+14:54:17.547 DEBUG 缓存模板: ./src/module/ranking.owo 
+14:54:17.547 DEBUG 模板ranking处理用时: 17 毫秒! 
+14:54:17.558 DEBUG 缓存模板: ./src/page/home.page 
+14:54:17.558 DEBUG 模板home处理用时: 135 毫秒! 
+14:54:17.559 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+14:54:17.559 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+14:54:17.559 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+14:54:17.559 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+14:54:17.560 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+14:54:17.560 INFO  css中的资源处理完毕! 
+14:54:17.560 DEBUG 使用postcss处理样式，使用了2个插件! 
+14:54:17.585 INFO  正在处理script! 
+14:54:17.586 INFO  工程中只有一个页面! 
+14:54:17.586 DEBUG 页面中不包含切换动画! 
+14:54:17.668 DEBUG 选择将js合并到html中! 
+14:54:17.685 INFO  js中的资源处理完毕! 
+14:54:17.685 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+14:54:17.685 DEBUG 外部脚本数量: 5 
+14:54:17.685 DEBUG 处理脚本: swiper 
+14:54:17.686 DEBUG 不使用bable处理脚本! 
+14:54:17.686 DEBUG 处理脚本: jquery1.11.0 
+14:54:17.686 DEBUG 网络脚本: jquery1.11.0 
+14:54:17.686 DEBUG 处理脚本: roundabout 
+14:54:17.686 DEBUG 不使用bable处理脚本! 
+14:54:17.686 DEBUG 处理脚本: jquery.easing.1.3 
+14:54:17.686 DEBUG 不使用bable处理脚本! 
+14:54:17.686 DEBUG 处理脚本: path.js 
+14:54:17.686 DEBUG 不使用bable处理脚本! 
+14:54:17.686 DEBUG 输出scriptData 
+14:54:17.686 DEBUG 判断是否可以输出Html! 
+14:54:17.686 DEBUG 还有没有经过处理的资源! 
+14:54:17.854 INFO  使用postcss处理完毕! 用时: 294 毫秒 
+14:54:17.854 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+14:54:17.855 DEBUG 判断是否可以输出Html! 
+14:54:17.855 DEBUG 准备输出html! 
+14:54:17.855 DEBUG 开始美化html 
+14:54:17.887 INFO  发送重新页面需要刷新命令! 
+15:03:45.403 INFO  file change: D:\work\yjx\src\module\path.owo 
+15:03:45.403 INFO  --------------------------- 开始编译 --------------------------- 
+15:03:45.403 INFO  程序运行目录: D:\work\yjx 
+15:03:45.403 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+15:03:45.403 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+15:03:45.403 DEBUG 读取网页标题: 页面 
+15:03:45.403 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+15:03:45.404 DEBUG 处理模板: ./src/page/home.page 
+15:03:45.411 DEBUG 处理模板: ./src/module/path.owo 
+15:03:45.411 ERROR 模块: newsList 不包含script 
+15:03:45.468 DEBUG 发现 comment 规则: undefined 
+15:03:45.468 DEBUG 发现 comment 规则: undefined 
+15:03:45.468 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.469 DEBUG 发现 keyframes 规则: pulse 
+15:03:45.469 DEBUG 发现 keyframes 规则: pulse 
+15:03:45.469 DEBUG 发现 keyframes 规则: logo 
+15:03:45.469 DEBUG 发现 keyframes 规则: logo 
+15:03:45.469 DEBUG 发现 keyframes 规则: fadeIn 
+15:03:45.469 DEBUG 发现 keyframes 规则: fadeIn 
+15:03:45.469 DEBUG 发现 comment 规则: undefined 
+15:03:45.470 DEBUG 缓存模板: ./src/module/path.owo 
+15:03:45.470 DEBUG 模板newsList处理用时: 59 毫秒! 
+15:03:45.487 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+15:03:45.487 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+15:03:45.487 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+15:03:45.491 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+15:03:45.491 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 4 毫秒! 
+15:03:45.493 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+15:03:45.493 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+15:03:45.500 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+15:03:45.500 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+15:03:45.502 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+15:03:45.502 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+15:03:45.509 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+15:03:45.509 DEBUG 模板newsList处理用时: 7 毫秒! 
+15:03:45.510 DEBUG 处理模板: ./src/module/imageBar.owo 
+15:03:45.510 ERROR 模块: imageBar 不包含script 
+15:03:45.514 DEBUG 缓存模板: ./src/module/imageBar.owo 
+15:03:45.514 DEBUG 模板imageBar处理用时: 4 毫秒! 
+15:03:45.515 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+15:03:45.515 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+15:03:45.519 DEBUG 发现 comment 规则: undefined 
+15:03:45.519 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+15:03:45.520 DEBUG 模板swiper处理用时: 4 毫秒! 
+15:03:45.521 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+15:03:45.521 ERROR 模块: infoCopyright 不包含script 
+15:03:45.524 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+15:03:45.524 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+15:03:45.525 DEBUG 处理模板: ./src/module/ranking.owo 
+15:03:45.545 DEBUG 缓存模板: ./src/module/ranking.owo 
+15:03:45.545 DEBUG 模板ranking处理用时: 20 毫秒! 
+15:03:45.555 DEBUG 缓存模板: ./src/page/home.page 
+15:03:45.555 DEBUG 模板home处理用时: 151 毫秒! 
+15:03:45.556 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+15:03:45.556 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+15:03:45.556 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+15:03:45.556 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+15:03:45.556 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+15:03:45.556 INFO  css中的资源处理完毕! 
+15:03:45.556 DEBUG 使用postcss处理样式，使用了2个插件! 
+15:03:45.579 INFO  正在处理script! 
+15:03:45.579 INFO  工程中只有一个页面! 
+15:03:45.580 DEBUG 页面中不包含切换动画! 
+15:03:45.670 DEBUG 选择将js合并到html中! 
+15:03:45.683 INFO  js中的资源处理完毕! 
+15:03:45.684 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+15:03:45.684 DEBUG 外部脚本数量: 5 
+15:03:45.684 DEBUG 处理脚本: swiper 
+15:03:45.684 DEBUG 不使用bable处理脚本! 
+15:03:45.684 DEBUG 处理脚本: jquery1.11.0 
+15:03:45.684 DEBUG 网络脚本: jquery1.11.0 
+15:03:45.684 DEBUG 处理脚本: roundabout 
+15:03:45.684 DEBUG 不使用bable处理脚本! 
+15:03:45.684 DEBUG 处理脚本: jquery.easing.1.3 
+15:03:45.684 DEBUG 不使用bable处理脚本! 
+15:03:45.684 DEBUG 处理脚本: path.js 
+15:03:45.684 DEBUG 不使用bable处理脚本! 
+15:03:45.684 DEBUG 输出scriptData 
+15:03:45.684 DEBUG 判断是否可以输出Html! 
+15:03:45.684 DEBUG 还有没有经过处理的资源! 
+15:03:45.854 INFO  使用postcss处理完毕! 用时: 298 毫秒 
+15:03:45.854 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+15:03:45.854 DEBUG 判断是否可以输出Html! 
+15:03:45.854 DEBUG 准备输出html! 
+15:03:45.854 DEBUG 开始美化html 
+15:03:45.907 INFO  发送重新页面需要刷新命令! 
+15:13:46.299 INFO  file change: D:\work\yjx\src\module\path.owo 
+15:13:46.299 INFO  --------------------------- 开始编译 --------------------------- 
+15:13:46.299 INFO  程序运行目录: D:\work\yjx 
+15:13:46.299 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+15:13:46.299 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+15:13:46.300 DEBUG 读取网页标题: 页面 
+15:13:46.300 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+15:13:46.300 DEBUG 处理模板: ./src/page/home.page 
+15:13:46.305 DEBUG 处理模板: ./src/module/path.owo 
+15:13:46.306 ERROR 模块: newsList 不包含script 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.340 DEBUG 发现 keyframes 规则: pulse 
+15:13:46.340 DEBUG 发现 keyframes 规则: pulse 
+15:13:46.340 DEBUG 发现 keyframes 规则: logo 
+15:13:46.340 DEBUG 发现 keyframes 规则: logo 
+15:13:46.340 DEBUG 发现 keyframes 规则: fadeIn 
+15:13:46.340 DEBUG 发现 keyframes 规则: fadeIn 
+15:13:46.340 DEBUG 发现 comment 规则: undefined 
+15:13:46.341 DEBUG 缓存模板: ./src/module/path.owo 
+15:13:46.341 DEBUG 模板newsList处理用时: 36 毫秒! 
+15:13:46.359 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+15:13:46.359 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+15:13:46.359 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+15:13:46.366 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+15:13:46.366 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 7 毫秒! 
+15:13:46.368 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+15:13:46.368 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+15:13:46.373 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+15:13:46.373 DEBUG 模板SVZSnmecHrAhzur1处理用时: 5 毫秒! 
+15:13:46.376 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+15:13:46.376 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+15:13:46.382 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+15:13:46.382 DEBUG 模板newsList处理用时: 6 毫秒! 
+15:13:46.385 DEBUG 处理模板: ./src/module/imageBar.owo 
+15:13:46.385 ERROR 模块: imageBar 不包含script 
+15:13:46.388 DEBUG 缓存模板: ./src/module/imageBar.owo 
+15:13:46.388 DEBUG 模板imageBar处理用时: 3 毫秒! 
+15:13:46.389 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+15:13:46.389 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+15:13:46.395 DEBUG 发现 comment 规则: undefined 
+15:13:46.395 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+15:13:46.395 DEBUG 模板swiper处理用时: 6 毫秒! 
+15:13:46.399 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+15:13:46.399 ERROR 模块: infoCopyright 不包含script 
+15:13:46.402 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+15:13:46.402 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+15:13:46.402 DEBUG 处理模板: ./src/module/ranking.owo 
+15:13:46.419 DEBUG 缓存模板: ./src/module/ranking.owo 
+15:13:46.419 DEBUG 模板ranking处理用时: 17 毫秒! 
+15:13:46.429 DEBUG 缓存模板: ./src/page/home.page 
+15:13:46.429 DEBUG 模板home处理用时: 129 毫秒! 
+15:13:46.431 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+15:13:46.431 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+15:13:46.431 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+15:13:46.431 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+15:13:46.431 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+15:13:46.431 DEBUG 处理资源: D:\work\yjx\src\resource\bottom-img.png 
+15:13:46.431 INFO  css中的资源处理完毕! 
+15:13:46.431 DEBUG 使用postcss处理样式，使用了2个插件! 
+15:13:46.442 INFO  正在处理script! 
+15:13:46.442 INFO  工程中只有一个页面! 
+15:13:46.443 DEBUG 页面中不包含切换动画! 
+15:13:46.525 DEBUG 选择将js合并到html中! 
+15:13:46.543 INFO  js中的资源处理完毕! 
+15:13:46.543 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+15:13:46.543 DEBUG 外部脚本数量: 5 
+15:13:46.543 DEBUG 处理脚本: swiper 
+15:13:46.543 DEBUG 不使用bable处理脚本! 
+15:13:46.543 DEBUG 处理脚本: jquery1.11.0 
+15:13:46.543 DEBUG 网络脚本: jquery1.11.0 
+15:13:46.543 DEBUG 处理脚本: roundabout 
+15:13:46.543 DEBUG 不使用bable处理脚本! 
+15:13:46.543 DEBUG 处理脚本: jquery.easing.1.3 
+15:13:46.543 DEBUG 不使用bable处理脚本! 
+15:13:46.543 DEBUG 处理脚本: path.js 
+15:13:46.543 DEBUG 不使用bable处理脚本! 
+15:13:46.543 DEBUG 输出scriptData 
+15:13:46.543 DEBUG 判断是否可以输出Html! 
+15:13:46.543 DEBUG 还有没有经过处理的资源! 
+15:13:46.701 INFO  使用postcss处理完毕! 用时: 270 毫秒 
+15:13:46.702 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+15:13:46.702 DEBUG 判断是否可以输出Html! 
+15:13:46.702 DEBUG 准备输出html! 
+15:13:46.702 DEBUG 开始美化html 
+15:13:46.761 INFO  发送重新页面需要刷新命令! 
+15:13:47.161 DEBUG 文件处理成功: 
+15:13:47.161 DEBUG D:\work\yjx\dist\static\resource\bottom-img.png 
+16:15:51.863 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:15:51.864 INFO  --------------------------- 开始编译 --------------------------- 
+16:15:51.864 INFO  程序运行目录: D:\work\yjx 
+16:15:51.864 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:15:51.864 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:15:51.864 DEBUG 读取网页标题: 页面 
+16:15:51.864 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:15:51.864 DEBUG 处理模板: ./src/page/home.page 
+16:15:51.872 DEBUG 处理模板: ./src/module/path.owo 
+16:15:51.872 ERROR 模块: newsList 不包含script 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.913 DEBUG 发现 keyframes 规则: pulse 
+16:15:51.913 DEBUG 发现 keyframes 规则: pulse 
+16:15:51.913 DEBUG 发现 keyframes 规则: logo 
+16:15:51.913 DEBUG 发现 keyframes 规则: logo 
+16:15:51.913 DEBUG 发现 keyframes 规则: fadeIn 
+16:15:51.913 DEBUG 发现 keyframes 规则: fadeIn 
+16:15:51.913 DEBUG 发现 comment 规则: undefined 
+16:15:51.915 DEBUG 缓存模板: ./src/module/path.owo 
+16:15:51.915 DEBUG 模板newsList处理用时: 43 毫秒! 
+16:15:51.933 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:15:51.933 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:15:51.933 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:15:51.938 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:15:51.938 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 5 毫秒! 
+16:15:51.940 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:15:51.940 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:15:51.968 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:15:51.969 DEBUG 模板SVZSnmecHrAhzur1处理用时: 29 毫秒! 
+16:15:51.971 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:15:51.971 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:15:51.977 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:15:51.977 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:15:51.978 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:15:51.978 ERROR 模块: imageBar 不包含script 
+16:15:51.982 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:15:51.982 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:15:51.982 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:15:51.982 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:15:51.988 DEBUG 发现 comment 规则: undefined 
+16:15:51.988 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:15:51.988 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:15:51.990 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:15:51.990 ERROR 模块: infoCopyright 不包含script 
+16:15:51.993 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:15:51.993 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+16:15:51.993 DEBUG 处理模板: ./src/module/ranking.owo 
+16:15:52.006 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:15:52.006 DEBUG 模板ranking处理用时: 13 毫秒! 
+16:15:52.014 DEBUG 缓存模板: ./src/page/home.page 
+16:15:52.014 DEBUG 模板home处理用时: 150 毫秒! 
+16:15:52.014 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:15:52.014 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:15:52.014 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:15:52.014 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:15:52.014 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:15:52.015 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:15:52.015 INFO  css中的资源处理完毕! 
+16:15:52.015 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:15:52.027 INFO  正在处理script! 
+16:15:52.027 INFO  工程中只有一个页面! 
+16:15:52.027 DEBUG 页面中不包含切换动画! 
+16:15:52.115 DEBUG 选择将js合并到html中! 
+16:15:52.130 INFO  js中的资源处理完毕! 
+16:15:52.130 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:15:52.130 DEBUG 外部脚本数量: 5 
+16:15:52.130 DEBUG 处理脚本: swiper 
+16:15:52.130 DEBUG 不使用bable处理脚本! 
+16:15:52.130 DEBUG 处理脚本: jquery1.11.0 
+16:15:52.130 DEBUG 网络脚本: jquery1.11.0 
+16:15:52.130 DEBUG 处理脚本: roundabout 
+16:15:52.130 DEBUG 不使用bable处理脚本! 
+16:15:52.130 DEBUG 处理脚本: jquery.easing.1.3 
+16:15:52.130 DEBUG 不使用bable处理脚本! 
+16:15:52.130 DEBUG 处理脚本: path.js 
+16:15:52.130 DEBUG 不使用bable处理脚本! 
+16:15:52.130 DEBUG 输出scriptData 
+16:15:52.130 DEBUG 判断是否可以输出Html! 
+16:15:52.130 DEBUG 还有没有经过处理的资源! 
+16:15:52.335 INFO  使用postcss处理完毕! 用时: 320 毫秒 
+16:15:52.335 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:15:52.335 DEBUG 判断是否可以输出Html! 
+16:15:52.335 DEBUG 准备输出html! 
+16:15:52.335 DEBUG 开始美化html 
+16:15:52.369 INFO  发送重新页面需要刷新命令! 
+16:21:13.307 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:21:13.308 INFO  --------------------------- 开始编译 --------------------------- 
+16:21:13.308 INFO  程序运行目录: D:\work\yjx 
+16:21:13.308 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:21:13.308 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:21:13.308 DEBUG 读取网页标题: 页面 
+16:21:13.308 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:21:13.308 DEBUG 处理模板: ./src/page/home.page 
+16:21:13.318 DEBUG 处理模板: ./src/module/path.owo 
+16:21:13.319 ERROR 模块: newsList 不包含script 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 comment 规则: undefined 
+16:21:13.368 DEBUG 发现 keyframes 规则: pulse 
+16:21:13.368 DEBUG 发现 keyframes 规则: pulse 
+16:21:13.368 DEBUG 发现 keyframes 规则: logo 
+16:21:13.369 DEBUG 发现 keyframes 规则: logo 
+16:21:13.369 DEBUG 发现 keyframes 规则: fadeIn 
+16:21:13.369 DEBUG 发现 keyframes 规则: fadeIn 
+16:21:13.369 DEBUG 发现 comment 规则: undefined 
+16:21:13.369 DEBUG 缓存模板: ./src/module/path.owo 
+16:21:13.369 DEBUG 模板newsList处理用时: 51 毫秒! 
+16:21:13.383 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:21:13.383 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:21:13.383 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:21:13.387 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:21:13.387 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 4 毫秒! 
+16:21:13.389 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:21:13.390 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:21:13.396 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:21:13.396 DEBUG 模板SVZSnmecHrAhzur1处理用时: 7 毫秒! 
+16:21:13.397 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:21:13.397 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:21:13.404 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:21:13.404 DEBUG 模板newsList处理用时: 7 毫秒! 
+16:21:13.405 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:21:13.405 ERROR 模块: imageBar 不包含script 
+16:21:13.408 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:21:13.408 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:21:13.409 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:21:13.409 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:21:13.414 DEBUG 发现 comment 规则: undefined 
+16:21:13.414 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:21:13.414 DEBUG 模板swiper处理用时: 5 毫秒! 
+16:21:13.416 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:21:13.416 ERROR 模块: infoCopyright 不包含script 
+16:21:13.421 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:21:13.421 DEBUG 模板infoCopyright处理用时: 5 毫秒! 
+16:21:13.421 DEBUG 处理模板: ./src/module/ranking.owo 
+16:21:13.438 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:21:13.438 DEBUG 模板ranking处理用时: 17 毫秒! 
+16:21:13.447 DEBUG 缓存模板: ./src/page/home.page 
+16:21:13.447 DEBUG 模板home处理用时: 139 毫秒! 
+16:21:13.447 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:21:13.447 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:21:13.447 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:21:13.447 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:21:13.447 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:21:13.448 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:21:13.448 INFO  css中的资源处理完毕! 
+16:21:13.448 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:21:13.460 INFO  正在处理script! 
+16:21:13.461 INFO  工程中只有一个页面! 
+16:21:13.461 DEBUG 页面中不包含切换动画! 
+16:21:13.551 DEBUG 选择将js合并到html中! 
+16:21:13.567 INFO  js中的资源处理完毕! 
+16:21:13.568 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:21:13.568 DEBUG 外部脚本数量: 5 
+16:21:13.568 DEBUG 处理脚本: swiper 
+16:21:13.568 DEBUG 不使用bable处理脚本! 
+16:21:13.568 DEBUG 处理脚本: jquery1.11.0 
+16:21:13.568 DEBUG 网络脚本: jquery1.11.0 
+16:21:13.568 DEBUG 处理脚本: roundabout 
+16:21:13.568 DEBUG 不使用bable处理脚本! 
+16:21:13.568 DEBUG 处理脚本: jquery.easing.1.3 
+16:21:13.568 DEBUG 不使用bable处理脚本! 
+16:21:13.568 DEBUG 处理脚本: path.js 
+16:21:13.568 DEBUG 不使用bable处理脚本! 
+16:21:13.568 DEBUG 输出scriptData 
+16:21:13.568 DEBUG 判断是否可以输出Html! 
+16:21:13.568 DEBUG 还有没有经过处理的资源! 
+16:21:13.744 INFO  使用postcss处理完毕! 用时: 296 毫秒 
+16:21:13.744 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:21:13.744 DEBUG 判断是否可以输出Html! 
+16:21:13.744 DEBUG 准备输出html! 
+16:21:13.744 DEBUG 开始美化html 
+16:21:13.808 INFO  发送重新页面需要刷新命令! 
+16:25:35.917 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:25:35.917 INFO  --------------------------- 开始编译 --------------------------- 
+16:25:35.917 INFO  程序运行目录: D:\work\yjx 
+16:25:35.917 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:25:35.917 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:25:35.917 DEBUG 读取网页标题: 页面 
+16:25:35.917 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:25:35.917 DEBUG 处理模板: ./src/page/home.page 
+16:25:35.922 DEBUG 处理模板: ./src/module/path.owo 
+16:25:35.922 ERROR 模块: newsList 不包含script 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.962 DEBUG 发现 keyframes 规则: pulse 
+16:25:35.962 DEBUG 发现 keyframes 规则: pulse 
+16:25:35.962 DEBUG 发现 keyframes 规则: logo 
+16:25:35.962 DEBUG 发现 keyframes 规则: logo 
+16:25:35.962 DEBUG 发现 keyframes 规则: fadeIn 
+16:25:35.962 DEBUG 发现 keyframes 规则: fadeIn 
+16:25:35.962 DEBUG 发现 comment 规则: undefined 
+16:25:35.964 DEBUG 缓存模板: ./src/module/path.owo 
+16:25:35.964 DEBUG 模板newsList处理用时: 42 毫秒! 
+16:25:35.979 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:25:35.979 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:25:35.979 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:25:35.985 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:25:35.985 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 6 毫秒! 
+16:25:35.987 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:25:35.988 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:25:35.993 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:25:35.993 DEBUG 模板SVZSnmecHrAhzur1处理用时: 6 毫秒! 
+16:25:35.996 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:25:35.996 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:25:36.000 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:25:36.000 DEBUG 模板newsList处理用时: 4 毫秒! 
+16:25:36.001 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:25:36.002 ERROR 模块: imageBar 不包含script 
+16:25:36.005 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:25:36.005 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:25:36.006 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:25:36.006 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:25:36.010 DEBUG 发现 comment 规则: undefined 
+16:25:36.010 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:25:36.010 DEBUG 模板swiper处理用时: 4 毫秒! 
+16:25:36.012 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:25:36.013 ERROR 模块: infoCopyright 不包含script 
+16:25:36.016 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:25:36.016 DEBUG 模板infoCopyright处理用时: 4 毫秒! 
+16:25:36.016 DEBUG 处理模板: ./src/module/ranking.owo 
+16:25:36.030 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:25:36.030 DEBUG 模板ranking处理用时: 14 毫秒! 
+16:25:36.037 DEBUG 缓存模板: ./src/page/home.page 
+16:25:36.037 DEBUG 模板home处理用时: 120 毫秒! 
+16:25:36.038 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:25:36.038 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:25:36.039 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:25:36.039 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:25:36.039 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:25:36.039 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:25:36.039 INFO  css中的资源处理完毕! 
+16:25:36.039 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:25:36.050 INFO  正在处理script! 
+16:25:36.050 INFO  工程中只有一个页面! 
+16:25:36.050 DEBUG 页面中不包含切换动画! 
+16:25:36.134 DEBUG 选择将js合并到html中! 
+16:25:36.148 INFO  js中的资源处理完毕! 
+16:25:36.149 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:25:36.149 DEBUG 外部脚本数量: 5 
+16:25:36.149 DEBUG 处理脚本: swiper 
+16:25:36.149 DEBUG 不使用bable处理脚本! 
+16:25:36.149 DEBUG 处理脚本: jquery1.11.0 
+16:25:36.149 DEBUG 网络脚本: jquery1.11.0 
+16:25:36.149 DEBUG 处理脚本: roundabout 
+16:25:36.149 DEBUG 不使用bable处理脚本! 
+16:25:36.149 DEBUG 处理脚本: jquery.easing.1.3 
+16:25:36.149 DEBUG 不使用bable处理脚本! 
+16:25:36.149 DEBUG 处理脚本: path.js 
+16:25:36.149 DEBUG 不使用bable处理脚本! 
+16:25:36.149 DEBUG 输出scriptData 
+16:25:36.149 DEBUG 判断是否可以输出Html! 
+16:25:36.149 DEBUG 还有没有经过处理的资源! 
+16:25:36.310 INFO  使用postcss处理完毕! 用时: 271 毫秒 
+16:25:36.310 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:25:36.310 DEBUG 判断是否可以输出Html! 
+16:25:36.310 DEBUG 准备输出html! 
+16:25:36.310 DEBUG 开始美化html 
+16:25:36.360 INFO  发送重新页面需要刷新命令! 
+16:30:36.895 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:30:36.896 INFO  --------------------------- 开始编译 --------------------------- 
+16:30:36.896 INFO  程序运行目录: D:\work\yjx 
+16:30:36.896 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:30:36.896 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:30:36.896 DEBUG 读取网页标题: 页面 
+16:30:36.896 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:30:36.896 DEBUG 处理模板: ./src/page/home.page 
+16:30:36.901 DEBUG 处理模板: ./src/module/path.owo 
+16:30:36.901 ERROR 模块: newsList 不包含script 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.938 DEBUG 发现 keyframes 规则: pulse 
+16:30:36.938 DEBUG 发现 keyframes 规则: pulse 
+16:30:36.938 DEBUG 发现 keyframes 规则: logo 
+16:30:36.938 DEBUG 发现 keyframes 规则: logo 
+16:30:36.938 DEBUG 发现 keyframes 规则: fadeIn 
+16:30:36.938 DEBUG 发现 keyframes 规则: fadeIn 
+16:30:36.938 DEBUG 发现 comment 规则: undefined 
+16:30:36.939 DEBUG 缓存模板: ./src/module/path.owo 
+16:30:36.939 DEBUG 模板newsList处理用时: 38 毫秒! 
+16:30:36.957 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:30:36.957 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:30:36.957 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:30:36.961 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:30:36.961 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 4 毫秒! 
+16:30:36.962 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:30:36.963 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:30:36.968 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:30:36.968 DEBUG 模板SVZSnmecHrAhzur1处理用时: 6 毫秒! 
+16:30:36.970 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:30:36.970 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:30:36.975 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:30:36.975 DEBUG 模板newsList处理用时: 5 毫秒! 
+16:30:36.977 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:30:36.977 ERROR 模块: imageBar 不包含script 
+16:30:36.981 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:30:36.981 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:30:36.982 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:30:36.982 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:30:36.990 DEBUG 发现 comment 规则: undefined 
+16:30:36.990 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:30:36.990 DEBUG 模板swiper处理用时: 8 毫秒! 
+16:30:36.992 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:30:36.992 ERROR 模块: infoCopyright 不包含script 
+16:30:36.995 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:30:36.995 DEBUG 模板infoCopyright处理用时: 4 毫秒! 
+16:30:36.995 DEBUG 处理模板: ./src/module/ranking.owo 
+16:30:37.013 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:30:37.013 DEBUG 模板ranking处理用时: 18 毫秒! 
+16:30:37.022 DEBUG 缓存模板: ./src/page/home.page 
+16:30:37.022 DEBUG 模板home处理用时: 126 毫秒! 
+16:30:37.023 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:30:37.023 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:30:37.024 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:30:37.024 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:30:37.024 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:30:37.024 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:30:37.024 INFO  css中的资源处理完毕! 
+16:30:37.024 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:30:37.036 INFO  正在处理script! 
+16:30:37.037 INFO  工程中只有一个页面! 
+16:30:37.037 DEBUG 页面中不包含切换动画! 
+16:30:37.137 DEBUG 选择将js合并到html中! 
+16:30:37.152 INFO  js中的资源处理完毕! 
+16:30:37.153 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:30:37.153 DEBUG 外部脚本数量: 5 
+16:30:37.153 DEBUG 处理脚本: swiper 
+16:30:37.153 DEBUG 不使用bable处理脚本! 
+16:30:37.153 DEBUG 处理脚本: jquery1.11.0 
+16:30:37.153 DEBUG 网络脚本: jquery1.11.0 
+16:30:37.153 DEBUG 处理脚本: roundabout 
+16:30:37.153 DEBUG 不使用bable处理脚本! 
+16:30:37.153 DEBUG 处理脚本: jquery.easing.1.3 
+16:30:37.153 DEBUG 不使用bable处理脚本! 
+16:30:37.153 DEBUG 处理脚本: path.js 
+16:30:37.153 DEBUG 不使用bable处理脚本! 
+16:30:37.153 DEBUG 输出scriptData 
+16:30:37.153 DEBUG 判断是否可以输出Html! 
+16:30:37.153 DEBUG 还有没有经过处理的资源! 
+16:30:37.319 INFO  使用postcss处理完毕! 用时: 295 毫秒 
+16:30:37.319 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:30:37.319 DEBUG 判断是否可以输出Html! 
+16:30:37.319 DEBUG 准备输出html! 
+16:30:37.319 DEBUG 开始美化html 
+16:30:37.350 INFO  发送重新页面需要刷新命令! 
+16:30:57.224 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:30:57.225 INFO  --------------------------- 开始编译 --------------------------- 
+16:30:57.225 INFO  程序运行目录: D:\work\yjx 
+16:30:57.225 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:30:57.225 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:30:57.226 DEBUG 读取网页标题: 页面 
+16:30:57.226 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:30:57.226 DEBUG 处理模板: ./src/page/home.page 
+16:30:57.231 DEBUG 处理模板: ./src/module/path.owo 
+16:30:57.231 ERROR 模块: newsList 不包含script 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 comment 规则: undefined 
+16:30:57.271 DEBUG 发现 keyframes 规则: pulse 
+16:30:57.271 DEBUG 发现 keyframes 规则: pulse 
+16:30:57.272 DEBUG 发现 keyframes 规则: logo 
+16:30:57.272 DEBUG 发现 keyframes 规则: logo 
+16:30:57.272 DEBUG 发现 keyframes 规则: fadeIn 
+16:30:57.272 DEBUG 发现 keyframes 规则: fadeIn 
+16:30:57.272 DEBUG 发现 comment 规则: undefined 
+16:30:57.272 DEBUG 缓存模板: ./src/module/path.owo 
+16:30:57.272 DEBUG 模板newsList处理用时: 41 毫秒! 
+16:30:57.284 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:30:57.284 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:30:57.284 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:30:57.289 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:30:57.289 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 5 毫秒! 
+16:30:57.291 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:30:57.291 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:30:57.296 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:30:57.296 DEBUG 模板SVZSnmecHrAhzur1处理用时: 5 毫秒! 
+16:30:57.299 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:30:57.299 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:30:57.304 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:30:57.304 DEBUG 模板newsList处理用时: 5 毫秒! 
+16:30:57.305 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:30:57.305 ERROR 模块: imageBar 不包含script 
+16:30:57.309 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:30:57.309 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:30:57.309 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:30:57.310 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:30:57.314 DEBUG 发现 comment 规则: undefined 
+16:30:57.314 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:30:57.314 DEBUG 模板swiper处理用时: 5 毫秒! 
+16:30:57.316 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:30:57.316 ERROR 模块: infoCopyright 不包含script 
+16:30:57.318 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:30:57.318 DEBUG 模板infoCopyright处理用时: 2 毫秒! 
+16:30:57.319 DEBUG 处理模板: ./src/module/ranking.owo 
+16:30:57.333 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:30:57.333 DEBUG 模板ranking处理用时: 14 毫秒! 
+16:30:57.342 DEBUG 缓存模板: ./src/page/home.page 
+16:30:57.342 DEBUG 模板home处理用时: 116 毫秒! 
+16:30:57.343 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:30:57.343 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:30:57.343 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:30:57.343 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:30:57.344 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:30:57.344 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:30:57.344 INFO  css中的资源处理完毕! 
+16:30:57.344 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:30:57.356 INFO  正在处理script! 
+16:30:57.356 INFO  工程中只有一个页面! 
+16:30:57.356 DEBUG 页面中不包含切换动画! 
+16:30:57.434 DEBUG 选择将js合并到html中! 
+16:30:57.451 INFO  js中的资源处理完毕! 
+16:30:57.451 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:30:57.451 DEBUG 外部脚本数量: 5 
+16:30:57.451 DEBUG 处理脚本: swiper 
+16:30:57.451 DEBUG 不使用bable处理脚本! 
+16:30:57.451 DEBUG 处理脚本: jquery1.11.0 
+16:30:57.451 DEBUG 网络脚本: jquery1.11.0 
+16:30:57.451 DEBUG 处理脚本: roundabout 
+16:30:57.451 DEBUG 不使用bable处理脚本! 
+16:30:57.451 DEBUG 处理脚本: jquery.easing.1.3 
+16:30:57.451 DEBUG 不使用bable处理脚本! 
+16:30:57.451 DEBUG 处理脚本: path.js 
+16:30:57.451 DEBUG 不使用bable处理脚本! 
+16:30:57.451 DEBUG 输出scriptData 
+16:30:57.451 DEBUG 判断是否可以输出Html! 
+16:30:57.451 DEBUG 还有没有经过处理的资源! 
+16:30:57.620 INFO  使用postcss处理完毕! 用时: 276 毫秒 
+16:30:57.620 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:30:57.621 DEBUG 判断是否可以输出Html! 
+16:30:57.621 DEBUG 准备输出html! 
+16:30:57.621 DEBUG 开始美化html 
+16:30:57.667 INFO  发送重新页面需要刷新命令! 
+16:31:13.090 INFO  file change: D:\work\yjx\src\module\path.owo 
+16:31:13.091 INFO  --------------------------- 开始编译 --------------------------- 
+16:31:13.091 INFO  程序运行目录: D:\work\yjx 
+16:31:13.091 INFO  刷新模式,变化目录: D:\work\yjx\src\module\path.owo 
+16:31:13.091 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:31:13.091 DEBUG 读取网页标题: 页面 
+16:31:13.091 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:31:13.091 DEBUG 处理模板: ./src/page/home.page 
+16:31:13.096 DEBUG 处理模板: ./src/module/path.owo 
+16:31:13.097 ERROR 模块: newsList 不包含script 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.131 DEBUG 发现 keyframes 规则: pulse 
+16:31:13.131 DEBUG 发现 keyframes 规则: pulse 
+16:31:13.131 DEBUG 发现 keyframes 规则: logo 
+16:31:13.131 DEBUG 发现 keyframes 规则: logo 
+16:31:13.131 DEBUG 发现 keyframes 规则: fadeIn 
+16:31:13.131 DEBUG 发现 keyframes 规则: fadeIn 
+16:31:13.131 DEBUG 发现 comment 规则: undefined 
+16:31:13.132 DEBUG 缓存模板: ./src/module/path.owo 
+16:31:13.132 DEBUG 模板newsList处理用时: 36 毫秒! 
+16:31:13.146 DEBUG 处理模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:31:13.146 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\4dc0e49d73ca94aa4500f099170b2b2c.owo 
+16:31:13.146 ERROR 模块: t7tueUOSnJGcyGcc 不包含script 
+16:31:13.150 DEBUG 缓存模板: https://owo.ink/public/05a67f8232f2fdf172fe501704339b98.page 
+16:31:13.150 DEBUG 模板t7tueUOSnJGcyGcc处理用时: 4 毫秒! 
+16:31:13.152 DEBUG 处理模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:31:13.152 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\d99a320c85eaeded1bf284c5e33dbfc0.owo 
+16:31:13.157 DEBUG 缓存模板: https://owo.ink/public/1bdad6c9364ab389a7a4c47c0815d1f4.page 
+16:31:13.157 DEBUG 模板SVZSnmecHrAhzur1处理用时: 5 毫秒! 
+16:31:13.159 DEBUG 处理模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:31:13.159 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\57062f3c081803d88410389f5694ef01.owo 
+16:31:13.163 DEBUG 缓存模板: https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page 
+16:31:13.163 DEBUG 模板newsList处理用时: 4 毫秒! 
+16:31:13.164 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:13.164 ERROR 模块: imageBar 不包含script 
+16:31:13.168 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:13.168 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:31:13.169 DEBUG 处理模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:31:13.169 DEBUG 使用文件缓存:D:\work\yjx\owo_modules\7c83bcef2cc8468d461cb4ab747667f2.owo 
+16:31:13.175 DEBUG 发现 comment 规则: undefined 
+16:31:13.175 DEBUG 缓存模板: https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page 
+16:31:13.175 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:31:13.178 DEBUG 处理模板: ./src/module/infoCopyright.owo 
+16:31:13.178 ERROR 模块: infoCopyright 不包含script 
+16:31:13.181 DEBUG 缓存模板: ./src/module/infoCopyright.owo 
+16:31:13.181 DEBUG 模板infoCopyright处理用时: 3 毫秒! 
+16:31:13.181 DEBUG 处理模板: ./src/module/ranking.owo 
+16:31:13.195 DEBUG 缓存模板: ./src/module/ranking.owo 
+16:31:13.195 DEBUG 模板ranking处理用时: 14 毫秒! 
+16:31:13.202 DEBUG 缓存模板: ./src/page/home.page 
+16:31:13.202 DEBUG 模板home处理用时: 111 毫秒! 
+16:31:13.203 DEBUG 忽略文件: D:\work\yjx\src\resource\bg.jpg 
+16:31:13.203 DEBUG 忽略文件: D:\work\yjx\src\resource\bottom-img.png 
+16:31:13.203 DEBUG 忽略文件: D:\work\yjx\src\resource\title.png 
+16:31:13.203 DEBUG 忽略文件: D:\work\yjx\src\resource\top-bar.png 
+16:31:13.203 DEBUG 忽略文件: D:\work\yjx\src\resource\fabulous.png 
+16:31:13.204 DEBUG 忽略文件: D:\work\yjx\src\resource\noSupport.png 
+16:31:13.204 INFO  css中的资源处理完毕! 
+16:31:13.204 DEBUG 使用postcss处理样式，使用了2个插件! 
+16:31:13.215 INFO  正在处理script! 
+16:31:13.215 INFO  工程中只有一个页面! 
+16:31:13.215 DEBUG 页面中不包含切换动画! 
+16:31:13.292 DEBUG 选择将js合并到html中! 
+16:31:13.307 INFO  js中的资源处理完毕! 
+16:31:13.307 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"},{"name":"path.js","src":"./src/main.js"}] 
+16:31:13.307 DEBUG 外部脚本数量: 5 
+16:31:13.307 DEBUG 处理脚本: swiper 
+16:31:13.307 DEBUG 不使用bable处理脚本! 
+16:31:13.307 DEBUG 处理脚本: jquery1.11.0 
+16:31:13.307 DEBUG 网络脚本: jquery1.11.0 
+16:31:13.307 DEBUG 处理脚本: roundabout 
+16:31:13.307 DEBUG 不使用bable处理脚本! 
+16:31:13.307 DEBUG 处理脚本: jquery.easing.1.3 
+16:31:13.307 DEBUG 不使用bable处理脚本! 
+16:31:13.307 DEBUG 处理脚本: path.js 
+16:31:13.307 DEBUG 不使用bable处理脚本! 
+16:31:13.307 DEBUG 输出scriptData 
+16:31:13.307 DEBUG 判断是否可以输出Html! 
+16:31:13.307 DEBUG 还有没有经过处理的资源! 
+16:31:13.538 INFO  使用postcss处理完毕! 用时: 334 毫秒 
+16:31:13.538 DEBUG 需要经过特殊处理的css: [[".o-newsList .mainwrap ",".o-newsList "],[".o-newsList .ww ",".o-newsList "],[".o-newsList .nsl ",".o-newsList "],[".o-t7tueUOSnJGcyGcc .p1_con_a ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .clearfix ",".o-t7tueUOSnJGcyGcc "],[".o-t7tueUOSnJGcyGcc .w1000 ",".o-t7tueUOSnJGcyGcc "],[".o-SVZSnmecHrAhzur1 .banner-box ",".o-SVZSnmecHrAhzur1 "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-swiper .swiper-zBLJxURsOhhagFAH ",".o-swiper "],[".o-infoCopyright .copyright-info-box ",".o-infoCopyright "],[".o-ranking .ranking-list ",".o-ranking "],[".o-home .home ",".o-home "]] 
+16:31:13.539 DEBUG 判断是否可以输出Html! 
+16:31:13.539 DEBUG 准备输出html! 
+16:31:13.539 DEBUG 开始美化html 
+16:31:13.572 INFO  发送重新页面需要刷新命令! 
