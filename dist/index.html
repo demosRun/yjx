@@ -46,6 +46,27 @@
       clear: both;
     }
 
+    .editor-note {
+      height: 200px;
+      width: 830px;
+      color: #ffffff;
+      font-size: 20px;
+      font-family: "Microsoft YaHei";
+      background-repeat: no-repeat;
+      position: relative;
+      background-image: url('./static/resource/editorNote.png');
+    }
+
+    .editor-note p {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 740px;
+      height: 130px;
+      text-indent: 40px;
+      z-index: 999;
+    }
+
     .mainwrap :focus {
       outline: 0;
     }
@@ -520,14 +541,14 @@
       position: absolute;
       top: 25px;
       left: 0;
-      right: 0;
       width: 688px;
       height: 688px;
+      margin: 0 auto;
       z-index: 99;
       -webkit-animation-name: logo;
       animation-name: logo;
-      -webkit-animation-duration: 5s;
-      animation-duration: 5s;
+      -webkit-animation-duration: 8s;
+      animation-duration: 8s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
     }
@@ -1368,17 +1389,25 @@
     @-webkit-keyframes logo {
       0% {
         opacity: 0;
+        left: 0;
+        top: 25px;
         -webkit-transform: scale3d(0.2, 0.2, 0.2);
         transform: scale3d(0.2, 0.2, 0.2);
       }
 
       70% {
         opacity: 1;
+        left: 0;
+        top: 25px;
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
       }
 
       100% {
+        left: -120px;
+        right: unset;
+        top: -120px;
+        position: absolute;
         -webkit-transform: scale3d(0.474, 0.474, 0.474);
         transform: scale3d(0.474, 0.474, 0.474);
       }
@@ -1387,17 +1416,25 @@
     @keyframes logo {
       0% {
         opacity: 0;
+        left: 0;
+        top: 25px;
         -webkit-transform: scale3d(0.2, 0.2, 0.2);
         transform: scale3d(0.2, 0.2, 0.2);
       }
 
       70% {
         opacity: 1;
+        left: 0;
+        top: 25px;
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
       }
 
       100% {
+        left: -120px;
+        right: unset;
+        top: -120px;
+        position: absolute;
         -webkit-transform: scale3d(0.474, 0.474, 0.474);
         transform: scale3d(0.474, 0.474, 0.474);
       }
@@ -1946,6 +1983,55 @@
     .home .banner-box .left .pagination-pPX8XxuUyIehAAEu .swiper-active-switch {
       background-color: #f4b06c;
     }
+
+    .home .editor-note {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 60px;
+      opacity: 0;
+      -webkit-animation-name: editor;
+      animation-name: editor;
+      -webkit-animation-duration: 6s;
+      animation-duration: 6s;
+    }
+
+    @-webkit-keyframes editor {
+      0% {
+        opacity: 0;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      75% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes editor {
+      0% {
+        opacity: 0;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      75% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
   </style>
   <!-- 附属css文件 -->
   <link rel="stylesheet" href="./static/css/main.css">
@@ -2118,6 +2204,10 @@
           <span class="cou mb cmb3"></span>
           <span class="pro mb pmb"></span>
         </div>
+      </div>
+      <!-- 编者按 -->
+      <div class="editor-note o-editorNote" template="editorNote">
+        <p>2018年是贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会、实施“十三五”规划承上启下的关键一年。“2018年中观察”系列报道，为您盘点上半年的“中国答卷”，触摸新时代中国发展的强劲脉搏。</p>
       </div>
       <div class="bottom-img"></div>
     </div>
@@ -2523,6 +2613,12 @@
           "prop": {
             "name": "newsList",
             "src": "./src/module/path.owo"
+          }
+        },
+        "editorNote": {
+          "prop": {
+            "name": "editorNote",
+            "src": "./src/module/editorNote.owo"
           }
         },
         "t7tueUOSnJGcyGcc": {

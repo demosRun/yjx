@@ -1,0 +1,27 @@
+<template>
+  <div class="editor-note">
+    <p>2018年是贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会、实施“十三五”规划承上启下的关键一年。“2018年中观察”系列报道，为您盘点上半年的“中国答卷”，触摸新时代中国发展的强劲脉搏。</p>
+  </div>
+</template>
+
+<style lang="less">
+.editor-note {
+  height: 200px;
+  width: 830px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url('@&editorNote.png&');
+}
+p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 740px;
+  height: 130px;
+  text-indent: 40px;
+  z-index: 999;
+}
+</style>

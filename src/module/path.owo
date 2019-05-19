@@ -159,6 +159,8 @@
       <span class="pro mb pmb"></span>	
     </div>
   </div>
+  <!-- 编者按 -->
+  <temple name="editorNote"  src="./src/module/editorNote.owo"></temple>
   <div class="bottom-img"></div>
 </div>
 </template>
@@ -562,14 +564,14 @@ caption, th, td {
   position: absolute;
   top: 25px;
   left: 0;
-  right: 0;
   width: 688px;
   height: 688px;
+  margin: 0 auto;
   z-index: 99;
   -webkit-animation-name: logo;
   animation-name: logo;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
   -webkit-animation-fill-mode: both  ;
   animation-fill-mode: both  ;
 }
@@ -1243,15 +1245,23 @@ caption, th, td {
 @-webkit-keyframes logo {
   0% {
     opacity: 0;
+    left: 0;
+    top: 25px;
     -webkit-transform: scale3d(0.2, 0.2, 0.2);
     transform: scale3d(0.2, 0.2, 0.2);
   }
   70% {
     opacity: 1;
+    left: 0;
+    top: 25px;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
   100% {
+    left: -120px;
+    right: unset;
+    top: -120px;
+    position: absolute;
     -webkit-transform: scale3d(0.474, 0.474, 0.474);
     transform: scale3d(0.474, 0.474, 0.474);
   }
@@ -1259,15 +1269,23 @@ caption, th, td {
 @keyframes logo {
   0% {
     opacity: 0;
+    left: 0;
+    top: 25px;
     -webkit-transform: scale3d(0.2, 0.2, 0.2);
     transform: scale3d(0.2, 0.2, 0.2);
   }
   70% {
     opacity: 1;
+    left: 0;
+    top: 25px;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
   100% {
+    left: -120px;
+    right: unset;
+    top: -120px;
+    position: absolute;
     -webkit-transform: scale3d(0.474, 0.474, 0.474);
     transform: scale3d(0.474, 0.474, 0.474);
   }
