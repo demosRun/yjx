@@ -2,12 +2,12 @@
 <div class="mainwrap ww nsl">
   <div class="main w">
     <div class="logo">
-      <img src="http://xj.people.com.cn/img/LOCAL/2016/11/112998/img/logo.png"  alt="" />
+      <img src="@&logo.png&"/>
     </div>
     <div class="map">
       <img src="http://xj.people.com.cn/img/LOCAL/2016/11/112998/img/main.png" alt="" />
     </div>
-    <div class="info">
+    <div class="info clear">
       <div id="modelBox" class="hide bubble tips talk-bubble tri-right round btm-left-in">
         <div class="talktext">
           <a href="#"><h3>标题</h3><p>内容</p></a>
@@ -158,9 +158,12 @@
       <span class="cou mb cmb3"></span>
       <span class="pro mb pmb"></span>	
     </div>
+    <div class="logo-mini">
+      <img src="@&logo.png&"/>
+    </div>
   </div>
   <!-- 编者按 -->
-  <temple name="editorNote"  src="./src/module/editorNote.owo"></temple>
+  <temple name="editorNote.owo" text="2018年是贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会、实施“十三五”规划承上启下的关键一年。“2018年中观察”系列报道，为您盘点上半年的“中国答卷”，触摸新时代中国发展的强劲脉搏。"  src="https://owo.ink/public/b637832ea1e1bab8b12eb15919c7d13c.page"></temple>
   <div class="bottom-img"></div>
 </div>
 </template>
@@ -187,9 +190,10 @@ caption, th, td {
 }
 .mainwrap {
   font: 14px/1.5 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
-  min-width: 1000px!important;
   color: #000;
   background-image: url('@&bg.jpg&');
+  background-size: auto 100%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .bubble.tips {
@@ -551,29 +555,38 @@ caption, th, td {
 .mainwrap {
   position: relative;
   overflow: hidden;
-  min-width: 1000px;
-  height: 850px;
+  height: 100%;
 }
 .mainwrap .main {
   height: 100%;
-  width: 1000px;
+  width: 100%;
   position: absolute;
   right: 0;
 }
 .mainwrap .main .logo {
   position: absolute;
-  top: 25px;
+  bottom: 200px;
   left: 0;
+  right: 0;
+  opacity: 0;
   width: 688px;
   height: 688px;
   margin: 0 auto;
   z-index: 99;
-  -webkit-animation-name: logo;
   animation-name: logo;
-  -webkit-animation-duration: 8s;
-  animation-duration: 8s;
-  -webkit-animation-fill-mode: both  ;
+  animation-duration: 6s;
   animation-fill-mode: both  ;
+}
+.logo-mini {
+  position: absolute;
+  right: 850px;
+  bottom: 523px;
+  width: 300px;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.logo-mini img {
+  width: 100%;
 }
 .mainwrap .main .logo img {
   position: absolute;
@@ -583,8 +596,12 @@ caption, th, td {
   height: 100%;
 }
 .mainwrap .main .map {
-  width: 100%;
+  width: 1200px;
   height: 100%;
+  position: absolute;
+  right: 0;
+  height: 850px;
+  bottom: 0;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 3s;
@@ -596,8 +613,9 @@ caption, th, td {
 }
 .mainwrap .main .info {
   position: absolute;
-  top: 0;
-  left: 0;
+  height: 850px;
+  bottom: 0;
+  right: 1200px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 3s;
@@ -1242,52 +1260,21 @@ caption, th, td {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-@-webkit-keyframes logo {
-  0% {
-    opacity: 0;
-    left: 0;
-    top: 25px;
-    -webkit-transform: scale3d(0.2, 0.2, 0.2);
-    transform: scale3d(0.2, 0.2, 0.2);
-  }
-  70% {
-    opacity: 1;
-    left: 0;
-    top: 25px;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  100% {
-    left: -120px;
-    right: unset;
-    top: -150px;
-    position: absolute;
-    -webkit-transform: scale3d(0.474, 0.474, 0.474);
-    transform: scale3d(0.474, 0.474, 0.474);
-  }
-}
+
 @keyframes logo {
   0% {
     opacity: 0;
     left: 0;
-    top: 25px;
+    right: 0;
     -webkit-transform: scale3d(0.2, 0.2, 0.2);
     transform: scale3d(0.2, 0.2, 0.2);
   }
-  70% {
-    opacity: 1;
+  50% {
     left: 0;
-    top: 25px;
+    right: 0;
+    opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
-  }
-  100% {
-    left: -120px;
-    right: unset;
-    top: -150px;
-    position: absolute;
-    -webkit-transform: scale3d(0.474, 0.474, 0.474);
-    transform: scale3d(0.474, 0.474, 0.474);
   }
 }
 @-webkit-keyframes fadeIn {

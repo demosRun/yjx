@@ -11,7 +11,7 @@
           <temple name="newsList"  src="https://owo.ink/public/13067c6679e5d6e65fe157947309bec1.page"></temple>
         </div>
       </div>
-      <temple name="imageBar"  src="./src/module/imageBar.owo">
+      <temple name="imageBar" src="https://owo.ink/public/4998c15b221f1d3b0912353e970aef42.page">
         <span class="blue">高清</span>
         <span class="red">动态图</span>
       </temple>
@@ -19,7 +19,7 @@
     <div class="swiper-box">
       <temple name="swiper"  src="https://owo.ink/public/4b9c6a969cd51fd593af8a7bbbce7ff6.page"></temple>
     </div>
-    <temple name="infoCopyright"  src="./src/module/infoCopyright.owo"></temple>
+    <temple name="copyrightInfo"  src="https://owo.ink/public/283b7350329b974de11dd6df845c732e.page"></temple>
     <!-- 右侧浮动排行榜 -->
     <temple name="ranking"  src="./src/module/ranking.owo"></temple>
   </div>
@@ -88,5 +88,8 @@
   100% {
     opacity: 0;
   }
+}
+.ranking-list {
+  display: none;
 }
 </style>

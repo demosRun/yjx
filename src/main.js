@@ -1,7 +1,6 @@
 $(function(){
   // 鼠标经过
   var oddClass = ""
-  console.log('sd')
   $(".mainwrap span.dot").bind({
     mouseover: function() {
       var $this = $(this)
@@ -44,6 +43,12 @@ $(function(){
     }
   })
 
+  // 几秒后显示小的logo图片
+  setTimeout(() => {
+    $('.logo-mini')[0].style.opacity = 1
+    $('.ranking-list')[0].style.display = 'block'
+  }, 4000)
+  
   // 详细
   var proData = {
     "bj": {
