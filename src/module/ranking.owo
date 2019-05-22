@@ -8,15 +8,7 @@
       <p class="name">排行榜</p>
     </div>
     <!-- 排行列表 -->
-    <ul class="list-box">
-      <li @for="item in data.list">
-        <i class="left fl"></i>
-        <div class="right fl">
-          <p class="name">{{item.name}}</p>
-          <p class="clear"><span class="support"></span><span class="number">1314</span></p>
-        </div>
-      </li>
-    </ul>
+    <ul class="list-box"></ul>
     <!-- 底部文字 -->
     <p class="bottom-text">点击给你喜欢的省市投票</p>
   </div>
@@ -38,14 +30,80 @@
         {name: "河北", number: 21324},
         {name: "北京", number: 21324},
         {name: "黑龙江", number: 21324},
-      ]
+      ],
+      cityList: {
+        "58953": "北京",
+        "58954": "安徽",
+        "58955": "天津",
+        "58956": "广东",
+        "58957": "山东",
+        "58958": "上海",
+        "58959": "深圳",
+        "58960": "江苏",
+        "58961": "江西",
+        "58962": "浙江",
+        "58963": "河北",
+        "58964": "河南",
+        "58965": "湖南",
+        "58966": "湖北",
+        "58967": "福建",
+        "58968": "山西",
+        "58969": "黑龙江",
+        "58970": "吉林",
+        "58971": "辽宁"
+      }
     },
     created: function () {
-      const list = this.$el.getElementsByClassName('list-box')[0].children
-      for (let ind = 0; ind < list.length; ind ++) {
-        const item = list[ind]
-        item.getElementsByClassName('left')[0].innerText = ind < 10 ? '0' + (ind + 1) : ind + 1
-      }
+      // 获取投票信息
+      $.getJSON("http://littlepoll1.people.com.cn/json.php?type=571&callback=?", (data) => {
+        // 由大到小排序
+        data = data.sort(function(a, b) {
+          return parseInt(b['bnum']) - parseInt(a['bnum'])
+        })
+        // console.log(data)
+        let tempHtml = ''
+        for (let ind = 0; ind < data.length; ind ++) {
+          const element = data[ind]
+          const indexText = ind < 10 ? '0' + (ind + 1) : ind + 1
+          tempHtml += `<li><i class="left fl">${indexText}</i><div class="right fl"><p class="name">${this.data.cityList[element.vid]}</p><p class="clear add" id="${element.vid}" title="为 ${this.data.cityList[element.vid]} 点赞"><span class="support"></span><span class="number">${element.bnum}</span></p></div></li>`
+        }
+        this.$el.getElementsByClassName('list-box')[0].innerHTML = tempHtml
+        setTimeout(() => {
+          const domList = this.$el.getElementsByClassName('add')
+          for (let ind = 0; ind < domList.length; ind ++) {
+            const element = domList[ind]
+            const _this = this
+            element.onclick = function () {
+              // 点赞请求
+              const voteId = this.getAttribute('id')
+              // console.log(this.getAttribute('id'))
+              $.ajax({
+                type:"get",
+                voteId: voteId,
+                url: "http://littlepoll1.people.com.cn/button/index.php/cip/button/571/"+ voteId,//每一个投票对应一个type的值
+                dataType: "json",
+                data: "jsonCallback=?",   
+                cache: false,
+                success: (data) => {
+                  if(data.b==1){
+                    alert("投票成功，感谢您的支持！")
+                    _this.created()
+                  } else if(data.b==2)
+                  {alert("一个IP一天只能投10票！");}
+                  else if(data.b==3)
+                  {alert("您已经投过此选项！");}
+                  else if(data.b==8)
+                  {alert("投票未开始！");}
+                  else if(data.b==9)
+                  {alert("投票已结束！");}
+                  else if(data.b==0)
+                  {alert("没有此投票！");}
+                }
+              })
+            }
+          }
+        }, 0)
+      })
     }
   }
 </script>
@@ -94,7 +152,7 @@ ul {
   height: 300px;
   overflow-x: hidden;
   overflow-y: auto;
-  width: 150px;
+  width: 140px;
   position: absolute;
   margin: 0 auto;
   top: 140px;
@@ -106,7 +164,7 @@ ul {
   li {
     height: 39px;
     border-bottom: 1px solid #c52800;
-    margin: 0 20px;
+    margin: 0 5px;
     padding: 10px 0;
   }
   li:after {
@@ -132,12 +190,16 @@ ul {
   }
   .right {
     padding-left: 10px;
-    width: 60px;
+    width: 68px;
     height: 40px;
+    overflow: hidden;
   }
   .name {
-    text-align: center;
-    font-size: 19px;
+    text-align: left;
+    font-size: 16px;
+    width: 68px;
+    height: 21px;
+    overflow: hidden;
   }
 }
 ul::-webkit-scrollbar {/*滚动条整体样式*/
@@ -160,18 +222,20 @@ ul::-webkit-scrollbar-track {/*滚动条里面轨道*/
   background-position: center;
   width: 20px;
   height: 20px;
-  margin: 2px 0;
   display: block;
   float: left;
   background-repeat: no-repeat;
 }
 .number {
   float: left;
-  line-height: 27px;
+  line-height: 22px;
   width: 40px;
   text-align: center;
   color: #c70000;
   font-size: 13px;
+}
+.add {
+  cursor: pointer;
 }
 .bottom-text {
   position: absolute;

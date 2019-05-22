@@ -16,6 +16,10 @@ module.exports = {
       content: 'text/html; charset=UTF-8',
     },
     {
+      'http-equiv': 'X-UA-Compatible',
+      content: 'IE=edge,chrome=1',
+    },
+    {
       name: 'viewport',
       content: 'width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no',
     }
@@ -101,6 +105,7 @@ module.exports = {
   build: {
     // 基础目录
     basePath: './',
+    alertLink: true,
     // 输出配置
     outPut: {
       // 是否压缩css

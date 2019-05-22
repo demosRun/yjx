@@ -44,7 +44,9 @@ $(function(){
   })
 
   // 几秒后显示小的logo图片
-  setTimeout(() => {
+  setTimeout(function () {
+    $('.logo')[0].style.display = 'none'
+    $('.editor-note')[0].style.display = 'none'
     $('.logo-mini')[0].style.opacity = 1
     $('.ranking-list')[0].style.display = 'block'
   }, 4000)

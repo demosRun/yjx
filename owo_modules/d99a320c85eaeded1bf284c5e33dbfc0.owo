@@ -5,19 +5,19 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <a target="_blank" href="#">
-              <img src="https://cunchu.site/ozzx/resource/img1.jpg">
+              <img src="@&img1.jpg&">
             </a>
             <p><a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a></p>
           </div>
           <div class="swiper-slide">
             <a target="_blank" href="#">
-              <img src="https://cunchu.site/ozzx/resource/img1.jpg">
+              <img src="@&img1.jpg&">
             </a>
             <p><a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a></p>
           </div>
           <div class="swiper-slide">
             <a target="_blank" href="#">
-              <img src="https://cunchu.site/ozzx/resource/img1.jpg">
+              <img src="@&img1.jpg&">
             </a>
             <p><a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a></p>
           </div>

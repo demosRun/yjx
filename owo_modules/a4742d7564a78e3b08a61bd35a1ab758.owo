@@ -13,7 +13,7 @@
   font-family: "Microsoft YaHei";
   background-repeat: no-repeat;
   position: relative;
-  background-image: url('https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/yjx/editorNote.png');
+  background-image: url('@&editorNote.png&');
 }
 p {
   position: absolute;

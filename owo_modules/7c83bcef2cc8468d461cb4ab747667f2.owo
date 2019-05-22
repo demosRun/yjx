@@ -1,12 +1,10 @@
 <template>
   <div class="swiper-zBLJxURsOhhagFAH">
     <ul> 
-      <li>
-        <a href="">
-          <img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em>121212</em></li>
-      <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
-      <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
-      <li><a href=""><img src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/image.png" width="360" height="241" alt="" /></a><em></em></li>
+      <li><a href=""><img src="@&image.png&" width="760" height="450" alt="" /></a><em>121212</em></li>
+      <li><a href=""><img src="@&image.png&" width="760" height="450" alt="" /></a><em></em></li>
+      <li><a href=""><img src="@&image.png&" width="760" height="450" alt="" /></a><em></em></li>
+      <li><a href=""><img src="@&image.png&" width="760" height="450" alt="" /></a><em></em></li>
     </ul> 
     <div class="prev"></div>
     <div class="next"></div>    
@@ -51,7 +49,7 @@ module.exports = {
 }
 .roundabout-moveable-item img{height:100%;width:100%;}
 .next {
-  background:url('https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/left.png') no-repeat;
+  background:url('@&left.png&') no-repeat;
   z-index: 9999;
   position:absolute;
   top: 0;
@@ -66,7 +64,7 @@ module.exports = {
   transform: rotate(180deg);
 }
 .prev {
-  background: url('https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/material/bjdqh/left.png') no-repeat;
+  background: url('@&left.png&') no-repeat;
   width: 55px;
   height: 55px;
   background-position: center;
@@ -81,6 +79,8 @@ module.exports = {
 }
 a {
   display: block;
+  height: 100%;
+  width: 100%;
 }
 li {
   list-style: none;
@@ -93,6 +93,7 @@ em {
   font-style: inherit;
   width: 98%;
   padding: 0 1%;
+  line-height: 25px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 /*p7*/
